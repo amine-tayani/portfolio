@@ -116,7 +116,7 @@ const Contact = () => {
       </div>
       <form className="space-y-6 bg-white p-8 rounded-md" onSubmit={sendEmail}>
         <div>
-          <label for="name" className="text-gray-600 text-sm font-semibold">
+          <label htmlFor="name" className="text-gray-600 text-sm font-semibold">
             Your Name
           </label>
           <input
@@ -129,7 +129,7 @@ const Contact = () => {
           />
         </div>
         <div>
-          <label for="email" className="text-gray-600 text-sm font-semibold">
+          <label htmlFor="email" className="text-gray-600 text-sm font-semibold">
             Email
           </label>
           <input
@@ -141,7 +141,7 @@ const Contact = () => {
           />
         </div>
         <div>
-          <label for="message" className="text-gray-600 text-sm font-semibold">
+          <label htmlFor="message" className="text-gray-600 text-sm font-semibold">
             Message
           </label>
           <textarea

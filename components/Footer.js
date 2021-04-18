@@ -2,7 +2,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const Footer = () => {
   return (
-    <div className="relative">
+    <div className="relative hidden xl:block">
       <AnchorLink href="#home">
         <svg
           xmlns="http://www.w3.org/2000/svg"

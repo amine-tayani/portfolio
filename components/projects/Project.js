@@ -31,14 +31,14 @@ const Project = ({ project }) => {
             <a
               href={project.Preview != "" ? project.Preview : "#"}
               type="button"
-              class="py-2 px-3 cursor-pointer bg-indigo-600 hover:bg-greyvy text-white w-1/2 transition ease-in duration-400 text-center text-base focus:outline-none rounded-lg "
+              className="py-2 px-3 cursor-pointer bg-indigo-600 hover:bg-greyvy text-white w-1/2 transition ease-in duration-400 text-center text-base focus:outline-none rounded-lg "
             >
               Preview
             </a>
             <a
               href={project.GithubLink != "" ? project.GithubLink : "#"}
               type="button"
-              class="py-2 px-4 cursor-pointer bg-indigo-600 hover:bg-greyvy text-white w-1/2 transition ease-in duration-400 text-center text-base focus:outline-none rounded-lg "
+              className="py-2 px-4 cursor-pointer bg-indigo-600 hover:bg-greyvy text-white w-1/2 transition ease-in duration-400 text-center text-base focus:outline-none rounded-lg "
             >
               Code
             </a>

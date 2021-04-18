@@ -59,18 +59,18 @@ const Header = () => {
               <div className="flex items-center">
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
-                    <a className=" text-gray-300 px-3 py-2 text-xl font-medium hover-underline ">
+                    <span className=" text-gray-300 px-3 py-2 text-xl font-medium hover-underline ">
                       <AnchorLink href="#home">Home</AnchorLink>
-                    </a>
-                    <a className=" text-gray-300 px-3 py-2 text-xl font-medium hover-underline ">
+                    </span>
+                    <span className=" text-gray-300 px-3 py-2 text-xl font-medium hover-underline ">
                       <AnchorLink href="#skills">Skills</AnchorLink>
-                    </a>
-                    <a className=" text-gray-300 px-3 py-2 text-xl font-medium hover-underline ">
+                    </span>
+                    <span className=" text-gray-300 px-3 py-2 text-xl font-medium hover-underline ">
                       <AnchorLink href="#projects">Projects</AnchorLink>
-                    </a>
-                    <a className=" text-gray-300 px-3 py-2 text-xl font-medium hover-underline ">
+                    </span>
+                    <span className=" text-gray-300 px-3 py-2 text-xl font-medium hover-underline ">
                       <AnchorLink href="#contact">Contact</AnchorLink>
-                    </a>
+                    </span>
                   </div>
                 </div>
               </div>

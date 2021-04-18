@@ -10,6 +10,10 @@ const Home = () => {
   return (
     <>
       <Head>
+        <meta
+          name="description"
+          content="Amine Tayani is full stack developer from morocco with +4 years of experience in web design and developement"
+        />
         <title>Amine Tayani | Full Stack Developer</title>
         <link rel="icon" href="/favicon.ico" />
         <link
