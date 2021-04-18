@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Amine Tayani Portfolio - Full Stack Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <Header />
       <Hero />
