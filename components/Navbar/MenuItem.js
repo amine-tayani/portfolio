@@ -25,7 +25,9 @@ export const MenuItem = ({ link }) => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
     >
-      <a className="text-gray-100 text-xl font-medium ">{link}</a>
+      <a href="" className="text-gray-100 text-xl font-medium ">
+        {link}
+      </a>
     </motion.li>
   )
 }

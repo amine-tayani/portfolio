@@ -153,6 +153,7 @@ const Contact = () => {
           ></textarea>
         </div>
         <button
+          name="sendMessage"
           type="submit"
           className="w-full p-3 text-sm font-semibold font-mont tracking-wide rounded bg-purpley text-gray-100 hover:bg-darkest-gray transition ease-in-out duration-200 focus:outline-none focus:bg-blue-700"
         >

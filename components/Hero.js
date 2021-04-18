@@ -288,7 +288,7 @@ const Hero = () => {
               className="object-cover object-center rounded-lg"
               alt="hero"
               src="/images/web-dev.png"
-            ></img>
+            />
           </div>
         </div>
       </section>

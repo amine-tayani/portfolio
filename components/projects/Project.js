@@ -5,7 +5,7 @@ const Project = ({ project }) => {
         <img
           className="object-cover object-center w-full h-44 rounded-md shadow-lg"
           src={project.ImgUrl}
-          alt={project.imgAlt}
+          alt={`${project.imgAlt}`}
         />
       </div>
       <div className="text-left group-hover:opacity-0">
@@ -30,14 +30,12 @@ const Project = ({ project }) => {
           <div className="flex justify-between space-x-2 m-4">
             <a
               href={project.Preview != "" ? project.Preview : "#"}
-              type="button"
               className="py-2 px-3 cursor-pointer bg-indigo-600 hover:bg-greyvy text-white w-1/2 transition ease-in duration-400 text-center text-base focus:outline-none rounded-lg "
             >
               Preview
             </a>
             <a
               href={project.GithubLink != "" ? project.GithubLink : "#"}
-              type="button"
               className="py-2 px-4 cursor-pointer bg-indigo-600 hover:bg-greyvy text-white w-1/2 transition ease-in duration-400 text-center text-base focus:outline-none rounded-lg "
             >
               Code
