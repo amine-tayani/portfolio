@@ -10,11 +10,14 @@ const Home = () => {
   return (
     <>
       <Head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <meta
           name="description"
-          content="Amine Tayani is full stack developer from morocco with +4 years of experience in web design and developement"
+          content="Amine Tayani is  a full stack developer, passionate about web development especially Javascript (React, NodeJS, MERN stack development...), I have built many projects using laravel, Django, and a lot of responsive and fully functional websites."
         />
-        <title>Amine Tayani | Full Stack Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Amine Tayani Portfolio - Full Stack Developer</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="preload"
