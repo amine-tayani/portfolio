@@ -7,6 +7,7 @@ class MyDocument extends Document {
         <Head>
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="title" content="Amine Tayani - full stack developer" />
+          <meta name="google-site-verification" content="g41Fe0cxqfLc457vA2NbcdpgB1zsUSutrPCt7i1--Ag" />
           <meta
             name="keywords"
             content="amine tayani , amine , tayani , full stack developer , morocco"
