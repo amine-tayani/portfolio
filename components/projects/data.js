@@ -48,7 +48,7 @@ export const data = [
     ImgUrl: "/images/foundation-home.png",
     ImgAlt: "Foundation template",
     Stack: ["Nextjs", "TailwindCSS"],
-    Title: "Foundation app template in tailwindCSS and NextJS",
+    Title: "Foundation template",
     Description:
       "I built this Foundation app template with tailwindCSS and NextJS for client",
     GithubLink: "https://github.com/amine-tayani/LaravelE-learning",
