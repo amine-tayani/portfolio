@@ -32,4 +32,26 @@ export const data = [
     GithubLink: "https://github.com/amine-tayani/blaazit",
     Preview: "",
   },
+  {
+    id: 4,
+    ImgUrl: "https://www.est-uh2c.ac.ma/media/images/maxresdefault.width-800.jpg",
+    ImgAlt: "E-learning",
+    Stack: ["Laravel", "Mysql"],
+    Title: "E-learning platforme",
+    Description:
+      " E-learning is a  school project built with Laravel framework and Mysql",
+    GithubLink: "https://github.com/amine-tayani/LaravelE-learning",
+    Preview: "",
+  },
+  {
+    id: 5,
+    ImgUrl: "/images/foundation-home.png",
+    ImgAlt: "Foundation template",
+    Stack: ["Nextjs", "TailwindCSS"],
+    Title: "Foundation app template in tailwindCSS and NextJS",
+    Description:
+      "I built this Foundation app template with tailwindCSS and NextJS for client",
+    GithubLink: "https://github.com/amine-tayani/LaravelE-learning",
+    Preview: "",
+  },
 ]
