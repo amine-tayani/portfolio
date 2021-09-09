@@ -51,7 +51,7 @@ export const data = [
     Title: "Foundation template",
     Description:
       "I built this Foundation app template with tailwindCSS and NextJS for client",
-    GithubLink: "https://github.com/amine-tayani/LaravelE-learning",
-    Preview: "",
+    GithubLink: "https://github.com/amine-tayani/project",
+    Preview: "https://foundation.app/",
   },
 ]

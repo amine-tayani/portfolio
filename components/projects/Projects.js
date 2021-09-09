@@ -9,7 +9,7 @@ const Projects = () => {
           Some Things I've Built
         </h2>
       </div>
-      <div className="flex flex-col space-y-10 lg:grid lg:grid-cols-3 lg:gap-x-4 ">
+      <div className="flex flex-col space-y-10 lg:grid lg:grid-cols-3 lg:gap-x-3 ">
         {data.map((project) => (
           <Project project={project} key={project.id} />
         ))}
