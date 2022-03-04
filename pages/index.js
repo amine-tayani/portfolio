@@ -1,9 +1,9 @@
-import Hero from "../components/Hero"
-import Header from "../components/Header"
-import Skills from "../components/Skills"
-import Projects from "../components/projects/Projects"
-import Contact from "../components/Contact"
-import Footer from "../components/Footer"
+import Hero from "../components/Hero";
+import Header from "../components/Header";
+import Skills from "../components/Skills";
+import Projects from "../components/projects/Projects";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
       <Contact />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
