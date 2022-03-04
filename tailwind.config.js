@@ -11,6 +11,8 @@ module.exports = {
       fontFamily: {
         sans: ["quicksand", "Helvetica", "Arial", "sans-serif"],
         mont: ["Montserrat"],
+        inter: ["inter"],
+        Jbrains: ["JetBrains Mono"],
       },
     },
   },
@@ -18,4 +20,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
