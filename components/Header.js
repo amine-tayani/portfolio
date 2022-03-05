@@ -44,7 +44,7 @@ const Header = () => {
                   className="h-10 w-10"
                   viewBox="0 0 24 24"
                   strokeWidth="1"
-                  stroke="#597e8d"
+                  stroke="#6c63ff"
                   fill="none"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -70,7 +70,7 @@ const Header = () => {
                     <span className=" text-gray-300 px-3 py-2 text-sm  hover-underline ">
                       <AnchorLink href="#contact">Contact</AnchorLink>
                     </span>
-                    <button className="w-full p-3 text-sm tracking-wide rounded border  border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-blue-700">
+                    <button className="w-full p-3 text-sm tracking-wide font-inter rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-blue-700">
                       Resume
                     </button>
                   </div>

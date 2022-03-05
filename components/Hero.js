@@ -14,15 +14,18 @@ const Hero = () => {
             <h3 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-400 ">
               I build things for the Web.
             </h3>
-            <div className="w-full lg:w-[600px]">
+            <div className="w-full max-w-xl">
               <p className="text-gray-400 font-Jbrains">
                 I'm a Full Stack Developer with experience building websites and
                 web applications. I specialize mostly in JavaScript and have
-                decent experience working with NodeJS ,Express, React and
-                NextJS.
+                decent experience working with{" "}
+                <span className="text-gray-100">Node.js</span>,{" "}
+                <span className="text-gray-100">Express</span>,{" "}
+                <span className="text-gray-100">React</span> and{" "}
+                <span className="text-gray-100">Next.js</span>.
               </p>
             </div>
-            <button className="w-52 p-4 text-sm tracking-wide rounded border  border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-blue-700">
+            <button className="w-52 p-4 text-sm font-inter tracking-wide rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-blue-700">
               Check out my resume
             </button>
           </div>
