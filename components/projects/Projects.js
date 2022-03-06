@@ -1,21 +1,21 @@
-import { data } from "./data"
-import Project from "./Project"
+import { data } from "./data";
+import Card from "./Card";
 
 const Projects = () => {
   return (
-    <div id="projects" className="w-full p-12">
-      <div className=" flex justify-center ">
-        <h2 className="text-center lg:mb-20 mb-10 mt-8 sm:mt-12 font-sans text-2xl tracking-widest text-gray-300 sm:text-4xl">
+    <div id="projects" className="w-full mt-32 mx-64">
+      <div className="">
+        <h5 className=" tracking-tighter font-black lg:mb-20 mb-10 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
           Some Things I've Built
-        </h2>
+        </h5>
       </div>
-      <div className="flex flex-col space-y-10 lg:grid lg:grid-cols-3 lg:gap-x-3 ">
+      <div className="grid grid-cols-3 gap-4 max-w-max">
         {data.map((project) => (
-          <Project project={project} key={project.id} />
+          <Card project={project} key={project.id} />
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

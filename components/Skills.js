@@ -17,9 +17,9 @@ const Skills = () => {
     "Docker",
   ];
   return (
-    <div className="mt-20 mx-64" id="skills">
+    <div className="mt-32 mx-64" id="skills">
       <div className="">
-        <h5 className=" tracking-tighter font-black lg:mb-12 mb-10 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
+        <h5 className=" tracking-tighter font-black lg:mb-20 mb-10 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
           Relevant skills
         </h5>
       </div>

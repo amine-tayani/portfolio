@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <head>
-        <title>Amine Tayani Portfolio - Full Stack Developer</title>
+        <title>Amine Tayani</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <Header />

@@ -40,19 +40,18 @@ const Header = () => {
             <div className="flex items-center justify-between h-16">
               <div className="hidden sm:flex flex-shrink-0 space-x-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 w-10"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1"
-                  stroke="#6c63ff"
+                  className="h-12 w-12"
                   fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                  stroke="#6c63ff"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M9 12h6" />
-                  <path d="M6 19a2 2 0 0 1 -2 -2v-4l-1 -1l1 -1v-4a2 2 0 0 1 2 -2" />
-                  <path d="M18 19a2 2 0 0 0 2 -2v-4l1 -1l-1 -1v-4a2 2 0 0 0 -2 -2" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1"
+                    d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  ></path>
                 </svg>
               </div>
               <div className="flex items-center">

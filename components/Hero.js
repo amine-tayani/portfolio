@@ -1,6 +1,11 @@
+import HeroiconsSet from "./HeroiconsSet";
+
 const Hero = () => {
   return (
-    <>
+    <div className="flex relative">
+      <div className="absolute mx-20 bottom-0 right-0">
+        <HeroiconsSet />
+      </div>
       <section className="text-gray-200 body-font">
         <div className="container flex flex-col mx-auto  px-5 text-left  md:flex-row lg:px-28 lg:mt-0 md:mt-10">
           <div className="flex flex-col font-inter space-y-8 pt-0 mb-16 lg:flex-grow md:w-full lg:w-1/2  xl:mr-10 md:pr-12 lg:pl-32 md:mb-8 ">
@@ -31,7 +36,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 export default Hero;
