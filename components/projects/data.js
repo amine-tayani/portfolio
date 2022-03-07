@@ -4,7 +4,7 @@ export const data = [
     Stack: ["Next", "React.js", "Express", "Graphql", "Prisma"],
     Title: "Glasnik",
     Description:
-      "Glasnik is a highly interactive full stack web - mobile application that allows users to text voice and video-chat divided into communities each of which has its own members and channels",
+      "Glasnik is a highly interactive full stack web - mobile application that allows users to chat divided into communities each of which has its own members and channels",
     GithubLink: "https://github.com/amine-tayani/CovidMorocco.git",
     Preview: "https://covidmorocco.netlify.app",
   },

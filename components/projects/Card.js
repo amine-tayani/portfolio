@@ -1,7 +1,7 @@
 const Card = ({ project }) => {
   return (
     <div>
-      <div className="p-6 max-w-xs h-72 bg-[#202040] group rounded cursor-pointer transform hover:-translate-y-2 duration-300 ease-in-out">
+      <div className="relative p-6 max-w-xs h-72 bg-[#202040] group rounded cursor-pointer transform hover:-translate-y-2 duration-300 ease-in-out">
         <div className="flex justify-between items-center mb-4">
           <svg
             className="w-10 h-10 cursor-pointer text-purpley "
@@ -61,7 +61,7 @@ const Card = ({ project }) => {
         <p class="mb-6 text-[#ACA9BB] font-inter text-sm ">
           {project.Description}
         </p>
-        <div className="flex space-x-3">
+        <div className="flex space-x-3 absolute bottom-0 mb-8">
           {project.Stack.map((t) => {
             return (
               <p className="text-xs font-medium font-Jbrains text-[#79759C]">

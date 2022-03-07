@@ -1,4 +1,4 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 const variants = {
   open: {
@@ -15,7 +15,7 @@ const variants = {
       y: { stiffness: 1000 },
     },
   },
-}
+};
 
 export const MenuItem = ({ link }) => {
   return (
@@ -25,9 +25,9 @@ export const MenuItem = ({ link }) => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
     >
-      <a href="" className="text-gray-100 text-xl font-medium ">
+      <a href="" className="text-xl text-[#ACA9BB] font-Jbrains ">
         {link}
       </a>
     </motion.li>
-  )
-}
+  );
+};

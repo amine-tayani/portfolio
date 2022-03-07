@@ -2,7 +2,7 @@ import HeroiconsSet from "./HeroiconsSet";
 
 const Hero = () => {
   return (
-    <div className="flex relative">
+    <div className="flex lg:relative">
       <div className="hidden lg:block absolute mx-20 bottom-0 right-0">
         <HeroiconsSet />
       </div>
