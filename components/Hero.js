@@ -3,7 +3,7 @@ import HeroiconsSet from "./HeroiconsSet";
 const Hero = () => {
   return (
     <div className="flex relative">
-      <div className="absolute mx-20 bottom-0 right-0">
+      <div className="hidden lg:block absolute mx-20 bottom-0 right-0">
         <HeroiconsSet />
       </div>
       <section className="text-gray-200 body-font">

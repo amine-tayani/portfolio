@@ -17,13 +17,13 @@ const Skills = () => {
     "Docker",
   ];
   return (
-    <div className="mt-32 mx-64" id="skills">
+    <div className="w-full mt-32 mx-10 lg:mx-64" id="skills">
       <div className="">
-        <h5 className=" tracking-tighter font-black lg:mb-20 mb-10 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
+        <h5 className="tracking-tighter font-black lg:mb-20 mb-10 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
           Relevant skills
         </h5>
       </div>
-      <div className="w-full max-w-3xl">
+      <div className="w-full max-w-xs lg:max-w-3xl">
         <p className="text-gray-400 font-inter text-lg">
           Hi my name is Amine and I enjoy creating things that live on the web.
           I have more than three years of hands-on experience in full stack

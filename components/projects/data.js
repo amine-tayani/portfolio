@@ -1,20 +1,16 @@
 export const data = [
   {
     id: 1,
-    ImgUrl: "/images/projects/covid.png",
-    ImgAlt: "Covid ",
-    Stack: ["React Js", "Rapid-API"],
-    Title: "Ko-19 Tracker",
+    Stack: ["Next", "React.js", "Express", "Graphql", "Prisma"],
+    Title: "Glasnik",
     Description:
-      "A website that informs you with the latest Coronavirus stats of morocco: total and new cases, deaths per day recoveries, and current active cases",
+      "Glasnik is a highly interactive full stack web - mobile application that allows users to text voice and video-chat divided into communities each of which has its own members and channels",
     GithubLink: "https://github.com/amine-tayani/CovidMorocco.git",
-    Preview: "https://maximablaze.netlify.app/",
+    Preview: "https://covidmorocco.netlify.app",
   },
   {
     id: 2,
-    ImgUrl: "/images/projects/faceRecog.png",
-    ImgAlt: "Attendance management",
-    Stack: ["Python", "Raspberry-Pi"],
+    Stack: ["Python", "Open-cv", "Raspberry-Pi"],
     Title: "Auto-Attendance",
     Description:
       "Auto-Attendance is a system that manage class attendance using face recognition in real-time using Raspberry Pi model 3 B+",
@@ -23,28 +19,15 @@ export const data = [
   },
   {
     id: 3,
-    ImgUrl: "/images/projects/blaazt.png",
-    ImgAlt: "BLAAZIT",
-    Stack: ["React js", "Firebase"],
-    Title: "BLAAZIT",
-    Description:
-      " Blaazit is a reddit like-app built with React JS (Context api and hooks ) and also firebase as backend",
-    GithubLink: "https://github.com/amine-tayani/blaazit",
-    Preview: "",
-  },
-  {
-    id: 4,
-    ImgUrl: "https://www.est-uh2c.ac.ma/media/images/maxresdefault.width-800.jpg",
-    ImgAlt: "E-learning",
-    Stack: ["Laravel", "Mysql"],
-    Title: "E-learning platforme",
+    Stack: ["Html-Css", "Laravel", "Mysql"],
+    Title: "ESTC-Learning",
     Description:
       " E-learning is a  school project built with Laravel framework and Mysql",
     GithubLink: "https://github.com/amine-tayani/LaravelE-learning",
     Preview: "",
   },
   {
-    id: 5,
+    id: 4,
     ImgUrl: "/images/foundation-home.png",
     ImgAlt: "Foundation template",
     Stack: ["Nextjs", "TailwindCSS"],
@@ -54,4 +37,22 @@ export const data = [
     GithubLink: "https://github.com/amine-tayani/project",
     Preview: "https://foundation.app/",
   },
-]
+  {
+    id: 5,
+    Stack: ["React js", "Firebase"],
+    Title: "Blaazit",
+    Description:
+      " Blaazit is a reddit like-app built with React JS (Context api and hooks ) and also firebase as backend",
+    GithubLink: "https://github.com/amine-tayani/blaazit",
+    Preview: "",
+  },
+  {
+    id: 6,
+    Stack: ["React Js", "Rapid-API"],
+    Title: "Ko-19 Tracker",
+    Description:
+      "A website that informs you with the latest Coronavirus stats of morocco: total and new cases, deaths per day recoveries, and current active cases",
+    GithubLink: "https://github.com/amine-tayani/CovidMorocco.git",
+    Preview: "https://covidmorocco.netlify.app",
+  },
+];
