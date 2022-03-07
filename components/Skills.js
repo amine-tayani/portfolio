@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <div className="w-full mt-32 mx-10 lg:mx-64" id="skills">
       <div className="">
-        <h5 className="tracking-tighter font-black lg:mb-20 mb-10 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
+        <h5 className="tracking-tighter font-inter font-bold lg:mb-20 mb-10 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
           Relevant skills
         </h5>
       </div>

@@ -54,17 +54,20 @@ const Card = ({ project }) => {
           </div>
         </div>
         <a href="#">
-          <h5 class="mt-6 mb-3 text-xl font-bold font-Jbrains tracking-tighter text-[#F1EDFF] group-hover:text-purpley ">
+          <h5 className="mt-6 mb-3 text-xl font-bold font-Jbrains tracking-tighter text-[#F1EDFF] group-hover:text-purpley ">
             {project.Title}
           </h5>
         </a>
-        <p class="mb-6 text-[#ACA9BB] font-inter text-sm ">
+        <p className="mb-6 text-[#ACA9BB] font-inter text-sm ">
           {project.Description}
         </p>
         <div className="flex space-x-3 absolute bottom-0 mb-8">
-          {project.Stack.map((t) => {
+          {project.Stack.map((t, i) => {
             return (
-              <p className="text-xs font-medium font-Jbrains text-[#79759C]">
+              <p
+                key={i}
+                className="text-xs font-medium font-Jbrains text-[#79759C]"
+              >
                 {t}
               </p>
             );
