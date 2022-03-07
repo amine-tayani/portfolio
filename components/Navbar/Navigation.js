@@ -1,5 +1,5 @@
-import { motion } from "framer-motion"
-import { MenuItem } from "./MenuItem"
+import { motion } from "framer-motion";
+import { MenuItem } from "./MenuItem";
 
 const variants = {
   open: {
@@ -8,7 +8,7 @@ const variants = {
   closed: {
     transition: { staggerChildren: 0.05, staggerDirection: -1 },
   },
-}
+};
 
 export const Navigation = () => (
   <motion.ul variants={variants} className="ul">
@@ -16,6 +16,6 @@ export const Navigation = () => (
       <MenuItem link={linkname} key={linkname} />
     ))}
   </motion.ul>
-)
+);
 
-const linkNames = ["Home", "Skills", "Projects", "Contact"]
+const linkNames = ["Home", "Skills", "Projects", "Contact"];

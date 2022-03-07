@@ -12,7 +12,7 @@ module.exports = {
         sans: ["quicksand", "Helvetica", "Arial", "sans-serif"],
         mont: ["Montserrat"],
         inter: ["inter"],
-        Jbrains: ["JetBrains Mono"],
+        Jbrains: ["JetBrainsMono"],
       },
     },
   },

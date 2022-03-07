@@ -1,6 +1,6 @@
 const HeroiconsSet = () => {
   return (
-    <div className="flex flex-col space-y-8 ">
+    <div className="flex flex-col space-y-8 fixed bottom-0 my-12">
       <div className="">
         <a
           href="https://github.com/amine-tayani/"

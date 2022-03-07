@@ -4,39 +4,69 @@
 
 @layer utilities {
   @font-face {
-    font-family: "quicksand";
-    src: url("/fonts/quicksand/Quicksand-Regular.ttf");
+    font-family: "inter";
+    src: url("/fonts/Inter/Inter-Regular.ttf");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
   }
   @font-face {
-    font-family: "quicksand";
-    src: url("/fonts/quicksand/Quicksand-Bold.ttf");
-    font-style: bold;
+    font-family: "inter";
+    src: url("/fonts/Inter/Inter-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "inter";
+    src: url("/fonts/Inter/Inter-SemiBold.ttf");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "inter";
+    src: url("/fonts/Inter/Inter-Bold.ttf");
+    font-style: normal;
     font-weight: 700;
     font-display: swap;
   }
   @font-face {
-    font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-Regular.ttf");
+    font-family: "inter";
+    src: url("/fonts/Inter/Inter-Black.ttf");
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "JetBrainsMono";
+    src: url("/fonts/JetBrainsMono/JetBrainsMono-Regular.ttf");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
   }
   @font-face {
-    font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-Bold.ttf");
-    font-style: bold;
+    font-family: "JetBrainsMono";
+    src: url("/fonts/JetBrainsMono/JetBrainsMono-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "JetBrainsMono";
+    src: url("/fonts/JetBrainsMono/JetBrainsMono-Bold.ttf");
+    font-style: normal;
     font-weight: 700;
     font-display: swap;
   }
+
   .nav {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 300px;
+    width: 250px;
   }
 
   .background {
@@ -44,7 +74,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    width: 300px;
+    width: 250px;
   }
 
   .btn {
@@ -68,12 +98,15 @@
     margin: 0;
     padding: 0;
   }
-
+  button,
+  a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
   .ul {
     padding: 25px;
     position: absolute;
     top: 100px;
-    width: 230px;
+    width: 200px;
     right: 40px;
   }
 
@@ -121,102 +154,5 @@
     height: 4px;
     background: #4a69ff;
     transition: width 0.2s;
-  }
-  .sk-folding-cube {
-    margin: 20px auto;
-    width: 40px;
-    height: 40px;
-    position: relative;
-    -webkit-transform: rotateZ(45deg);
-    transform: rotateZ(45deg);
-  }
-
-  .sk-folding-cube .sk-cube {
-    float: left;
-    width: 50%;
-    height: 50%;
-    position: relative;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  .sk-folding-cube .sk-cube:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
-    animation: sk-foldCubeAngle 2.4s infinite linear both;
-    -webkit-transform-origin: 100% 100%;
-    -ms-transform-origin: 100% 100%;
-    transform-origin: 100% 100%;
-  }
-  .sk-folding-cube .sk-cube2 {
-    -webkit-transform: scale(1.1) rotateZ(90deg);
-    transform: scale(1.1) rotateZ(90deg);
-  }
-  .sk-folding-cube .sk-cube3 {
-    -webkit-transform: scale(1.1) rotateZ(180deg);
-    transform: scale(1.1) rotateZ(180deg);
-  }
-  .sk-folding-cube .sk-cube4 {
-    -webkit-transform: scale(1.1) rotateZ(270deg);
-    transform: scale(1.1) rotateZ(270deg);
-  }
-  .sk-folding-cube .sk-cube2:before {
-    -webkit-animation-delay: 0.3s;
-    animation-delay: 0.3s;
-  }
-  .sk-folding-cube .sk-cube3:before {
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
-  }
-  .sk-folding-cube .sk-cube4:before {
-    -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s;
-  }
-  @-webkit-keyframes sk-foldCubeAngle {
-    0%,
-    10% {
-      -webkit-transform: perspective(140px) rotateX(-180deg);
-      transform: perspective(140px) rotateX(-180deg);
-      opacity: 0;
-    }
-    25%,
-    75% {
-      -webkit-transform: perspective(140px) rotateX(0deg);
-      transform: perspective(140px) rotateX(0deg);
-      opacity: 1;
-    }
-    90%,
-    100% {
-      -webkit-transform: perspective(140px) rotateY(180deg);
-      transform: perspective(140px) rotateY(180deg);
-      opacity: 0;
-    }
-  }
-
-  @keyframes sk-foldCubeAngle {
-    0%,
-    10% {
-      -webkit-transform: perspective(140px) rotateX(-180deg);
-      transform: perspective(140px) rotateX(-180deg);
-      opacity: 0;
-    }
-    25%,
-    75% {
-      -webkit-transform: perspective(140px) rotateX(0deg);
-      transform: perspective(140px) rotateX(0deg);
-      opacity: 1;
-    }
-    90%,
-    100% {
-      -webkit-transform: perspective(140px) rotateY(180deg);
-      transform: perspective(140px) rotateY(180deg);
-      opacity: 0;
-    }
   }
 }

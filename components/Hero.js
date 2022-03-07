@@ -30,9 +30,14 @@ const Hero = () => {
                 <span className="text-gray-100">Next.js</span>.
               </p>
             </div>
-            <button className="w-52 p-4 text-sm font-inter tracking-wide rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-blue-700">
-              Check out my resume
-            </button>
+            <a
+              href="/pdf/resume_Amine_Tayani.pdf"
+              download="amine_tayani_resume.pdf"
+            >
+              <button className="w-52 p-4 text-sm font-inter tracking-wide rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley">
+                Check out my resume
+              </button>
+            </a>
           </div>
         </div>
       </section>

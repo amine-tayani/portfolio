@@ -34,11 +34,11 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://aminet.vercel.app/assets/screen.png"
+            content="https://aminetayani.me/assets/screen.png"
           />
 
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://aminet.vercel.app/" />
+          <meta property="twitter:url" content="https://aminetayani.me/" />
           <meta
             property="twitter:title"
             content="Amine Tayani - full stack developer"
@@ -79,25 +79,49 @@ class MyDocument extends Document {
 
           <link
             rel="preload"
-            href="/fonts/quicksand/Quicksand-Regular.ttf"
+            href="/fonts/Inter/Inter-Regular.ttf"
             as="font"
             crossOrigin=""
           />
           <link
             rel="preload"
-            href="/fonts/quicksand/Quicksand-Bold.ttf"
+            href="/fonts/Inter/Inter-Medium.ttf"
             as="font"
             crossOrigin=""
           />
           <link
             rel="preload"
-            href="/fonts/Montserrat/Montserrat-Regular.ttf"
+            href="/fonts/Inter/Inter-SemiBold.ttf"
             as="font"
             crossOrigin=""
           />
           <link
             rel="preload"
-            href="/fonts/Montserrat/Montserrat-Bold.ttf"
+            href="/fonts/Inter/Inter-Bold.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/Inter/Inter-Black.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/JetBrainsMono/JetBrainsMono-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/JetBrainsMono/JetBrainsMono-Medium.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/JetBrainsMono/JetBrainsMono-Bold.ttf"
             as="font"
             crossOrigin=""
           />

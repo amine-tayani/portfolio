@@ -4,6 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useDimensions } from "../hooks/useDimensions";
 import { MenuToggle } from "../components/Navbar/MenuToggle";
 import { Navigation } from "../components/Navbar/Navigation";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);
@@ -38,7 +39,7 @@ const Header = () => {
         <nav>
           <div className="max-w-full mx-auto px-8 sm:px-6 lg:px-16 my-4">
             <div className="flex items-center justify-between h-16">
-              <div className="hidden sm:flex flex-shrink-0 space-x-3">
+              <div className="z-10 sm:flex flex-shrink-0 space-x-3">
                 <svg
                   className="h-12 w-12"
                   fill="none"
@@ -54,6 +55,7 @@ const Header = () => {
                   ></path>
                 </svg>
               </div>
+
               <div className="flex items-center">
                 <div className="hidden md:block">
                   <div className="ml-10 flex font-Jbrains items-baseline space-x-6">
@@ -69,9 +71,14 @@ const Header = () => {
                     <span className=" text-gray-300 px-3 py-2 text-sm  hover-underline ">
                       <AnchorLink href="#contact">Contact</AnchorLink>
                     </span>
-                    <button className="w-full p-3 text-sm tracking-wide font-inter rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-blue-700">
-                      Resume
-                    </button>
+                    <a
+                      href="/pdf/resume_Amine_Tayani.pdf"
+                      download="amine_tayani_resume.pdf"
+                    >
+                      <button className="w-full p-3 text-sm tracking-wide font-inter rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley">
+                        Resume
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
