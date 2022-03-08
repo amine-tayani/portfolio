@@ -5,8 +5,8 @@ export const data = [
     Title: "Glasnik",
     Description:
       "Glasnik is a highly interactive full stack web - mobile application that allows users to chat divided into communities each of which has its own members and channels",
-    GithubLink: "https://github.com/amine-tayani/CovidMorocco.git",
-    Preview: "https://covidmorocco.netlify.app",
+    GithubLink: "https://github.com/amine-tayani/glasnik_frontend",
+    Preview: "https://github.com/amine-tayani/glasnik_api",
   },
   {
     id: 2,
@@ -28,8 +28,6 @@ export const data = [
   },
   {
     id: 4,
-    ImgUrl: "/images/foundation-home.png",
-    ImgAlt: "Foundation template",
     Stack: ["Nextjs", "TailwindCSS"],
     Title: "Foundation template",
     Description:
