@@ -37,7 +37,7 @@ const Header = () => {
     <div id="home">
       <div>
         <nav>
-          <div className="max-w-full mx-auto px-8 sm:px-6 lg:px-16 my-4">
+          <div className="max-w-full mx-auto sm:px-6 md:mx-2 lg:mx-0 px-8 lg:px-16 my-4">
             <div className="flex items-center justify-between h-16">
               <div className="z-10 sm:flex flex-shrink-0 space-x-3">
                 <svg
