@@ -33,7 +33,7 @@ export const data = [
     Description:
       "I built this Foundation app template with tailwindCSS and NextJS for client",
     GithubLink: "https://github.com/amine-tayani/project",
-    Preview: "https://foundation.app/",
+    Preview: "https://nftoundation.vercel.app/",
   },
   {
     id: 5,
@@ -51,6 +51,6 @@ export const data = [
     Description:
       "A website that informs you with the latest Coronavirus stats of morocco: total and new cases, deaths per day recoveries, and current active cases",
     GithubLink: "https://github.com/amine-tayani/CovidMorocco.git",
-    Preview: "https://covidmorocco.netlify.app",
+    Preview: "",
   },
 ];
