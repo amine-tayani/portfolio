@@ -37,7 +37,7 @@ const Header = () => {
     <div id="home">
       <div>
         <nav>
-          <div className="max-w-full mx-auto sm:px-6 md:mx-2 lg:mx-0 px-8 lg:px-16 my-4">
+          <div className="max-w-full mx-auto sm:px-6 md:mx-2 lg:mx-0 px-8 lg:px-16 xl:px-32 xl:mx-6 my-4">
             <div className="flex items-center justify-between h-16">
               <div className="z-10 sm:flex flex-shrink-0 space-x-3">
                 <svg
@@ -57,7 +57,7 @@ const Header = () => {
               </div>
 
               <div className="flex items-center">
-                <div className="hidden md:block">
+                <div className="hidden md:block xl:mr-20">
                   <div className="ml-10 flex font-Jbrains items-baseline space-x-6">
                     <span className=" text-gray-300 px-3 py-2 text-sm hover-underline ">
                       <AnchorLink href="#home">Home</AnchorLink>

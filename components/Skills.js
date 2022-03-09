@@ -19,12 +19,12 @@ const Skills = () => {
   return (
     <div className="w-full mt-32 mx-10 sm:mx-12 md:mx-20 lg:mx-64" id="skills">
       <div className="">
-        <h5 className="tracking-tighter font-inter font-bold lg:mb-20 mb-10 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
+        <h5 className="tracking-tighter font-inter font-bold mb-10 lg:mb-20 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl xl:text-5xl">
           Relevant skills
         </h5>
       </div>
-      <div className="w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl">
-        <p className="text-gray-400 font-inter text-lg">
+      <div className="w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
+        <p className="text-gray-400 font-inter text-lg xl:text-xl">
           <div className="hidden md:block">
             Hi my name is Amine and I enjoy creating things that live on the
             web. I have more than three years of hands-on experience in full
@@ -40,7 +40,7 @@ const Skills = () => {
           I’ve been working with these years :
         </p>
 
-        <ul className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-10  font-Jbrains">
+        <ul className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-10 font-Jbrains">
           {skills.map((skill, index) => {
             return (
               <li key={index} className="flex items-center space-x-2">
@@ -56,7 +56,9 @@ const Skills = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="text-gray-200 text-sm">{skill}</span>
+                <span className="text-gray-200 text-sm xl:text-lg">
+                  {skill}
+                </span>
               </li>
             );
           })}
