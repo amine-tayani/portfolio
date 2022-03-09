@@ -4,4 +4,4 @@ This project use the Next js framework developed by [Vercel](https://vercel.com)
 
 ## Project Screenshot
 
-![Project Screenshot](https://github.com/amine-tayani/portfolio/blob/portfolio-v2/portfolio.png?raw=true)
+![Project Screenshot](https://github.com/amine-tayani/portfolio/blob/main/portfolio.png)
