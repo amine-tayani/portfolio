@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <meta name="title" content="Amine Tayani - full stack developer" />
           <meta
             name="google-site-verification"
-            content="g41Fe0cxqfLc457vA2NbcdpgB1zsUSutrPCt7i1--Ag"
+            content="gbBxKgDgP_MslIfUGtY3r43OT5fn_AwbQ2Lw0847o9U"
           />
           <meta
             name="keywords"
