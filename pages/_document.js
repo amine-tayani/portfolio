@@ -6,7 +6,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name="title" content="Amine Tayani" />
+          <meta name="title" content="Amine Tayani - full stack developer" />
           <meta
             name="google-site-verification"
             content="g41Fe0cxqfLc457vA2NbcdpgB1zsUSutrPCt7i1--Ag"
@@ -17,7 +17,7 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Amine Tayani is a full stack developer, passionate about web development especially Javascript (React, NodeJS, MERN stack development...), I have built many projects using laravel, Django, and a lot of responsive and fully functional websites."
+            content="Amine Tayani is  a full stack developer, passionate about web development especially Javascript (React, NodeJS, MERN stack ...)."
           />
           <meta name="robots" content="index, follow" />
           <meta name="language" content="English" />
@@ -30,7 +30,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="Amine Tayani is  a full stack developer, passionate about web development especially Javascript (React, NodeJS, MERN stack development...), I have built many projects using laravel, Django, and a lot of responsive and fully functional websites."
+            content="Amine Tayani is  a full stack developer, passionate about web development especially Javascript (React, NodeJS, MERN stack ...)."
           />
           <meta
             property="og:image"
@@ -45,7 +45,7 @@ class MyDocument extends Document {
           />
           <meta
             property="twitter:description"
-            content="Amine Tayani is  a full stack developer, passionate about web development especially Javascript (React, NodeJS, MERN stack development...), I have built many projects using laravel, Django, and a lot of responsive and fully functional websites."
+            content="Amine Tayani is  a full stack developer, passionate about web development especially Javascript (React, NodeJS, MERN stack ...)."
           />
           <meta
             property="twitter:image"
