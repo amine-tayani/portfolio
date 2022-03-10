@@ -19,12 +19,12 @@ const Skills = () => {
   return (
     <div className="w-full mt-32 mx-10 sm:mx-12 md:mx-20 lg:mx-64" id="skills">
       <div className="">
-        <h5 className="tracking-tighter font-inter font-bold mb-10 lg:mb-20 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl xl:text-5xl">
+        <h5 className="tracking-tighter font-inter font-bold mb-10 lg:mb-20 mt-8 sm:mt-14 text-3xl text-gray-300 sm:text-3xl">
           Relevant skills
         </h5>
       </div>
-      <div className="w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
-        <p className="text-gray-400 font-inter text-lg xl:text-xl">
+      <div className="w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl">
+        <p className="text-gray-400 font-inter text-lg">
           <div className="hidden md:block">
             Hi my name is Amine and I enjoy creating things that live on the
             web. I have more than three years of hands-on experience in full
@@ -56,9 +56,7 @@ const Skills = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="text-gray-200 text-sm xl:text-lg">
-                  {skill}
-                </span>
+                <span className="text-gray-200 text-sm">{skill}</span>
               </li>
             );
           })}

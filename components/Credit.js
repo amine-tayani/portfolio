@@ -4,7 +4,7 @@ const Credit = () => {
       id="contact"
       className="max-w-screen-xl px-8 py-16 mx-auto rounded-lg my-10 lg:my-20"
     >
-      <div className="lg:hidden flex justify-center  space-x-4 my-12">
+      <div className="lg:hidden flex justify-center space-x-4 my-12">
         <div className="">
           <a
             href="https://github.com/amine-tayani/"
