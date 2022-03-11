@@ -27,7 +27,7 @@ export const MenuItem = ({ link }) => {
       whileTap={{ scale: 0.95 }}
     >
       <AnchorLink
-        className="text-xl text-[#ACA9BB] font-Jbrains"
+        className="text-xl text-[#ACA9BB] font-Jbrains mb-a"
         href={`#${link}`}
       >
         {link}
