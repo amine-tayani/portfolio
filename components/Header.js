@@ -4,7 +4,6 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useDimensions } from "../hooks/useDimensions";
 import { MenuToggle } from "../components/Navbar/MenuToggle";
 import { Navigation } from "../components/Navbar/Navigation";
-import Link from "next/link";
 
 const Header = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);

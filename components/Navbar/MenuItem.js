@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const variants = {
   open: {
@@ -25,9 +26,12 @@ export const MenuItem = ({ link }) => {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
     >
-      <a href={`#${link}`} className="text-xl text-[#ACA9BB] font-Jbrains ">
+      <AnchorLink
+        className="text-xl text-[#ACA9BB] font-Jbrains"
+        href={`#${link}`}
+      >
         {link}
-      </a>
+      </AnchorLink>
     </motion.li>
   );
 };
