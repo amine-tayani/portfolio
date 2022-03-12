@@ -9,9 +9,9 @@ const Hero = () => {
       <section className="text-gray-200 body-font">
         <div className="container flex flex-col px-5 sm:px-14 md:px-20 md:text-justify lg:text-left md:flex-row lg:px-28 lg:mt-0 md:mt-10">
           <div className="flex flex-col font-inter space-y-4 md:space-y-8 pt-0 mb-16 lg:flex-grow sm:max-w-xl md:max-w-full md:pr-12 lg:pl-32 md:mb-8">
-            <p className="lg:mb-4 mt-20 font-Jbrains text-[#6c63ff] font-medium">
+            <h1 className="lg:mb-4 mt-20 font-Jbrains text-[#6c63ff] font-medium">
               Hi, my name is
-            </p>
+            </h1>
 
             <h2 className="text-4xl sm:text-6xl lg:text-7xl font-bold ">
               Amine Tayani.
