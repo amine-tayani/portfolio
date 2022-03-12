@@ -59,22 +59,37 @@ const Header = () => {
                 <div className="hidden md:block xl:mr-20">
                   <div className="ml-10 flex font-Jbrains items-baseline space-x-6">
                     <span className=" text-gray-300 px-3 py-2 text-sm hover-underline ">
-                      <AnchorLink href="#home">Home</AnchorLink>
+                      <AnchorLink aria-label="hero section" href="#home">
+                        Home
+                      </AnchorLink>
                     </span>
                     <span className=" text-gray-300 px-3 py-2 text-sm  hover-underline ">
-                      <AnchorLink href="#skills">Skills</AnchorLink>
+                      <AnchorLink aria-label="skills section" href="#skills">
+                        Skills
+                      </AnchorLink>
                     </span>
                     <span className=" text-gray-300 px-3 py-2 text-sm  hover-underline ">
-                      <AnchorLink href="#projects">Projects</AnchorLink>
+                      <AnchorLink
+                        aria-label="projects section"
+                        href="#projects"
+                      >
+                        Projects
+                      </AnchorLink>
                     </span>
                     <span className=" text-gray-300 px-3 py-2 text-sm  hover-underline ">
-                      <AnchorLink href="#contact">Contact</AnchorLink>
+                      <AnchorLink aria-label="Contact section" href="#contact">
+                        Contact
+                      </AnchorLink>
                     </span>
                     <a
+                      aria-label="resume link"
                       href="/pdf/resume_Amine_Tayani.pdf"
                       download="amine_tayani_resume.pdf"
                     >
-                      <button className="w-full p-3 text-sm tracking-wide font-inter rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley">
+                      <button
+                        aria-label="download resume"
+                        className="w-full p-3 text-sm tracking-wide font-inter rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley"
+                      >
                         Resume
                       </button>
                     </a>

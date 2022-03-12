@@ -31,10 +31,14 @@ const Hero = () => {
               </p>
             </div>
             <a
+              aria-label="resume link"
               href="/pdf/resume_Amine_Tayani.pdf"
               download="amine_tayani_resume.pdf"
             >
-              <button className="w-52 p-4 my-8  md:my-16 text-sm font-inter tracking-wide rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley">
+              <button
+                aria-label="check resume"
+                className="w-52 p-4 my-8  md:my-16 text-sm font-inter tracking-wide rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley"
+              >
                 Check out my resume
               </button>
             </a>

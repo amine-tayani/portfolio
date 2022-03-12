@@ -8,6 +8,7 @@ const Custom404 = () => {
           </h1>
           <div className="mt-20">
             <a
+              aria-label="link to go back home"
               href="/"
               className="px-4 py-3 w-40 text-base  tracking-wide rounded bg-purpley text-gray-100 hover:bg-darkest-gray transition ease-in-out duration-300 hover:ring-1 hover:ring-blue-900 focus:outline-none focus:bg-blue-700"
             >

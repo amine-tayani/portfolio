@@ -7,6 +7,7 @@ const Credit = () => {
       <div className="lg:hidden flex justify-center space-x-4 my-12">
         <div className="">
           <a
+            aria-label="check my github"
             href="https://github.com/amine-tayani/"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,6 +26,7 @@ const Credit = () => {
         </div>
         <div className="">
           <a
+            aria-label="check my linkedin"
             href="https://www.linkedin.com/in/amine-tayani-b5780122b/"
             target="_blank"
             rel="noopener noreferrer"
@@ -43,6 +45,7 @@ const Credit = () => {
         </div>
         <div className="">
           <a
+            aria-label="check my codepen"
             href="https://codepen.io/amine-tayani/"
             target="_blank"
             rel="noopener noreferrer"
@@ -61,6 +64,7 @@ const Credit = () => {
         </div>
         <div className="">
           <a
+            aria-label="check my hackerrank profile"
             href="https://www.hackerrank.com/amine_tayani"
             target="_blank"
             rel="noopener noreferrer"

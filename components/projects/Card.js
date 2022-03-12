@@ -15,7 +15,10 @@ const Card = ({ project }) => {
           </svg>
           <div className="flex items-center space-x-2">
             {project.GithubLink !== "" && (
-              <a href={project.GithubLink != "" ? project.GithubLink : "#"}>
+              <a
+                aria-label="project github repo"
+                href={project.GithubLink != "" ? project.GithubLink : "#"}
+              >
                 <svg
                   className="w-6 h-6 cursor-pointer text-gray-400 hover:text-purpley duration-300 ease-in-out"
                   xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +35,10 @@ const Card = ({ project }) => {
                 </svg>
               </a>
             )}
-            <a href={project.Preview != "" ? project.Preview : "#"}>
+            <a
+              aria-label="project preview link"
+              href={project.Preview != "" ? project.Preview : "#"}
+            >
               <svg
                 className="w-6 h-6 cursor-pointer text-gray-400 hover:text-purpley duration-300 ease-in-out"
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +59,7 @@ const Card = ({ project }) => {
             </a>
           </div>
         </div>
-        <a href="#">
+        <a aria-label="project title" href="#">
           <h5 className="mt-6 mb-3 text-xl font-bold font-Jbrains tracking-tighter text-[#F1EDFF] group-hover:text-purpley ">
             {project.Title}
           </h5>

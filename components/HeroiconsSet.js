@@ -3,6 +3,7 @@ const HeroiconsSet = () => {
     <div className="flex flex-col space-y-8 fixed bottom-0 my-12">
       <div className="">
         <a
+          aria-label="github link"
           href="https://github.com/amine-tayani/"
           target="_blank"
           rel="noopener noreferrer"
@@ -21,6 +22,7 @@ const HeroiconsSet = () => {
       </div>
       <div className="">
         <a
+          aria-label="linkedin link"
           href="https://www.linkedin.com/in/amine-tayani-b5780122b/"
           target="_blank"
           rel="noopener noreferrer"
@@ -39,6 +41,7 @@ const HeroiconsSet = () => {
       </div>
       <div className="">
         <a
+          aria-label="codepen link"
           href="https://codepen.io/amine-tayani/"
           target="_blank"
           rel="noopener noreferrer"
@@ -57,6 +60,7 @@ const HeroiconsSet = () => {
       </div>
       <div className="">
         <a
+          aria-label="hackerrank link"
           href="https://www.hackerrank.com/amine_tayani"
           target="_blank"
           rel="noopener noreferrer"

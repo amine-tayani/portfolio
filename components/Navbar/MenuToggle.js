@@ -1,11 +1,22 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 const Path = (props) => (
-  <motion.path fill="transparent" stroke="#fff" strokeWidth="2" strokeLinecap="round" {...props} />
-)
+  <motion.path
+    fill="transparent"
+    stroke="#fff"
+    strokeWidth="2"
+    strokeLinecap="round"
+    {...props}
+  />
+);
 
 export const MenuToggle = ({ toggle }) => (
-  <button name="toggle" className="btn focus:outline-none" onClick={toggle}>
+  <button
+    aria-label="toggle menu"
+    name="toggle"
+    className="btn focus:outline-none"
+    onClick={toggle}
+  >
     <svg className="h-6 w-6" viewBox="0 0 23 23">
       <Path
         variants={{
@@ -29,4 +40,4 @@ export const MenuToggle = ({ toggle }) => (
       />
     </svg>
   </button>
-)
+);
