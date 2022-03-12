@@ -1,3 +1,6 @@
+import React from "react";
+import Image from "next/image";
+
 const Custom404 = () => {
   return (
     <div className="font-inter container mx-auto h-screen pt-32 md:pt-0 px-6 z-10 flex items-center justify-between">
@@ -17,7 +20,11 @@ const Custom404 = () => {
           </div>
         </div>
         <div className="block w-full mx-auto md:mt-0 relative max-w-md lg:max-w-2xl">
-          <img src="/images/error_404/Error_404.svg" />
+          <Image
+            src="/images/error_404/Error_404.svg"
+            alt="error img"
+            aria-label="error illustration"
+          />
         </div>
       </div>
     </div>

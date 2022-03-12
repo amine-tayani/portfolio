@@ -1,9 +1,13 @@
-import Hero from "../components/Hero";
-import Header from "../components/Header";
-import Skills from "../components/Skills";
-import Projects from "../components/projects/Projects";
-import Contact from "../components/Contact";
-import Credit from "../components/Credit";
+import dynamic from "next/dynamic";
+
+const HeroComponent = dynamic(() => import("../components/Hero"));
+const HeaderComponent = dynamic(() => import("../components/Header"));
+const SkillsComponent = dynamic(() => import("../components/Skills"));
+const ProjectsComponent = dynamic(() =>
+  import("../components/projects/Projects")
+);
+const ContactComponent = dynamic(() => import("../components/Contact"));
+const CreditComponent = dynamic(() => import("../components/Credit"));
 
 const Home = () => {
   return (
@@ -12,12 +16,12 @@ const Home = () => {
         <title>Amine Tayani</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <Header />
-      <Hero />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Credit />
+      <HeaderComponent />
+      <HeroComponent />
+      <SkillsComponent />
+      <ProjectsComponent />
+      <ContactComponent />
+      <CreditComponent />
     </>
   );
 };

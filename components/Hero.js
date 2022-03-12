@@ -1,4 +1,4 @@
-import HeroiconsSet from "./HeroiconsSet";
+const HeroiconsSet = dynamic(() => import("./HeroiconsSet"));
 
 const Hero = () => {
   return (

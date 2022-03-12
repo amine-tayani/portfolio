@@ -21,6 +21,6 @@
     "autoprefixer": "^10.0.4",
     "postcss": "^8.1.10",
     "tailwindcss": "^2.0.2",
-    "tailwindcss-debug-screens": "^2.0.0"
+    "tailwindcss-debug-screens": "^2.2.1"
   }
 }

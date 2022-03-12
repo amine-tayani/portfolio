@@ -126,7 +126,11 @@ class MyDocument extends Document {
             crossOrigin=""
           />
         </Head>
-        <body>
+        <body
+          className={
+            process.env.NODE_ENV == "devlopement" ? "debug-screens" : ""
+          }
+        >
           <Main />
           <NextScript />
         </body>
