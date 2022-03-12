@@ -60,9 +60,9 @@ const Card = ({ project }) => {
           </div>
         </div>
         <a aria-label="project title" href="#">
-          <h5 className="mt-6 mb-3 text-xl font-bold font-Jbrains tracking-tighter text-[#F1EDFF] group-hover:text-purpley ">
+          <h1 className="mt-6 mb-3 text-xl font-bold font-Jbrains tracking-tighter text-[#F1EDFF] group-hover:text-purpley ">
             {project.Title}
-          </h5>
+          </h1>
         </a>
         <p className="mb-6 text-[#ACA9BB] font-inter text-sm ">
           {project.Description}
