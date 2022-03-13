@@ -77,6 +77,14 @@ const Header = () => {
                       </AnchorLink>
                     </span>
                     <span className=" text-gray-300 px-3 py-2 text-sm  hover-underline ">
+                      <AnchorLink
+                        aria-label="experiences section"
+                        href="#experiences"
+                      >
+                        Experiences
+                      </AnchorLink>
+                    </span>
+                    <span className=" text-gray-300 px-3 py-2 text-sm  hover-underline ">
                       <AnchorLink aria-label="Contact section" href="#contact">
                         Contact
                       </AnchorLink>

@@ -10,6 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.5.0",
     "framer-motion": "^4.1.2",
     "next": "latest",
     "react": "^17.0.1",

@@ -1,5 +1,4 @@
-const HeroiconsSet = dynamic(() => import("./HeroiconsSet"));
-
+import HeroiconsSet from "../components/HeroiconsSet";
 const Hero = () => {
   return (
     <div className="flex lg:relative">

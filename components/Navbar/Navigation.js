@@ -18,4 +18,4 @@ export const Navigation = () => (
   </motion.ul>
 );
 
-const linkNames = ["home", "skills", "projects", "contact"];
+const linkNames = ["home", "skills", "projects", "experiences", "contact"];
