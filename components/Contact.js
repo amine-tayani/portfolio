@@ -19,7 +19,7 @@ const Contact = () => {
           <a aria-label="send an email" href="mailto:amine.tayani@gmail.com">
             <button
               aria-label="send me an email"
-              className="mt-12 py-4 px-12 text-sm tracking-wide font-inter rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley"
+              className="mt-12 py-4 px-12 text-sm tracking-wide font-inter  text-gray-100 rounded-sm ring-1 ring-purpley hover:bg-[#2d2d44] hover:text-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley"
             >
               Send Message
             </button>

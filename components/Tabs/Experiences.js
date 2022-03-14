@@ -28,7 +28,7 @@ const variants = {
 const Experiences = () => {
   return (
     <div
-      className="w-full mt-32 mx-10 sm:mx-12 md:mx-20 lg:mx-64 font-inter"
+      className="w-full mt-32 mx-10 max-w-lg sm:mx-12 md:mx-20 lg:mx-64 font-inter"
       id="experiences"
     >
       <div className="">
@@ -36,15 +36,15 @@ const Experiences = () => {
           Where I've worked
         </h1>
       </div>
-      <div className="flex items-center space-x-8 w-full max-w-xl lg:max-w-3xl sm:px-0">
+      <div className="flex flex-col space-x-0 sm:flex-row sm:space-x-8 sm:items-center  w-full max-w-xl lg:max-w-3xl sm:px-0">
         <Tab.Group defaultIndex={0}>
-          <Tab.List className="flex flex-col">
+          <Tab.List className="flex flex-row sm:flex-col">
             {experiences.map((exp) => (
               <Tab
                 key={exp.id}
                 className={({ selected }) =>
                   classNames(
-                    "w-36 py-3 text-left px-4 text-sm rounded-sm hover:bg-[#2d2d44] hover:text-purpley hover:ring-1 hover:ring-purpley",
+                    "w-32 sm:w-36 py-3 text-left px-4 text-sm sm:text-lg rounded-sm hover:bg-[#2d2d44] hover:text-purpley hover:ring-1 hover:ring-purpley",
                     "focus:outline-none transition-all duration-300 ease-in-out",
                     selected
                       ? " ring-1 ring-purpley bg-[#2d2d44] text-purpley"
@@ -60,7 +60,10 @@ const Experiences = () => {
             {experiences.map((exp) => (
               <Tab.Panel
                 key={exp.id}
-                className={classNames(" p-3", "focus:outline-none")}
+                className={classNames(
+                  " p-3 mt-12 sm:mt-0",
+                  "focus:outline-none"
+                )}
               >
                 <motion.div
                   initial="hidden"
@@ -68,14 +71,14 @@ const Experiences = () => {
                   variants={variants}
                   className="flex flex-col space-y-2 tracking-tight"
                 >
-                  <h1 className="text-[#F1EDFF] font-semibold">
+                  <h1 className="text-[#F1EDFF] font-bold text-xl">
                     {exp.role} - {"  "}
                     <span className="text-purpley font-Jbrains">
                       {exp.company_name}
                     </span>
                   </h1>
 
-                  <p className="text-sm text-[#79759C] ">
+                  <p className=" text-[#79759C] text-lg">
                     {exp.job_date} , {exp.location}
                   </p>
                   <motion.ul
@@ -86,8 +89,8 @@ const Experiences = () => {
                   >
                     {exp.tasks.map((task) => (
                       <motion.li variants={item}>
-                        <div className="p-2 mx-2 text-sm text-[#ACA9BB]">
-                          <span className="leading-6 "> - {task}</span>
+                        <div className="p-2 sm:mx-2 text-[#ACA9BB]">
+                          <span className="leading-6"> - {task}</span>
                         </div>
                       </motion.li>
                     ))}

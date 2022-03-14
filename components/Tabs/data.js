@@ -26,7 +26,7 @@ export const experiences = [
     role: "Full Stack Developer",
     company_name: "Estc School",
     tasks: [
-      "Built an e-learning platform for the students of ESTC School.",
+      "Built an E-learning platform for the ESTC School to deliver learning content and resources to the students.",
       "Worked with a variety of different languages, frameworks such as PHP, JAVASCRIPT, Laravel, Node.js and MYSQL",
     ],
     location: "Remote",
@@ -38,7 +38,7 @@ export const experiences = [
     company_name: "Fiverr",
     tasks: [
       "Created more than three full-stack web applications for my clients in different domains such as Cryptocurrency and Fitness",
-      "Collaborate with the app development team, including product designers",
+      "Collaborate with the app development team, including Web Developers and UI designers",
     ],
     location: "Remote",
     job_date: "March - September 2021",

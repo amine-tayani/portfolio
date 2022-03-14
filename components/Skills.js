@@ -23,7 +23,7 @@ const Skills = () => {
           Relevant skills
         </h1>
       </div>
-      <div className="w-full max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl">
+      <div className="w-full max-w-sm sm:max-w-xl md:max-w-2xl lg:max-w-3xl">
         <p className="text-gray-400 font-inter text-lg">
           <div className="hidden md:block">
             Hi my name is Amine and I enjoy creating things that live on the

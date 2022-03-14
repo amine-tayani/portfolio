@@ -1,7 +1,7 @@
 const Card = ({ project }) => {
   return (
     <div>
-      <div className="relative p-6 max-w-xs h-72 bg-[#202040] group rounded cursor-pointer transform hover:-translate-y-2 duration-300 ease-in-out">
+      <div className="relative p-6 max-w-md sm:max-w-xs h-72 bg-[#202040] group rounded cursor-pointer transform hover:-translate-y-2 duration-300 ease-in-out">
         <div className="flex justify-between items-center mb-4">
           <svg
             className="w-10 h-10 cursor-pointer text-purpley "

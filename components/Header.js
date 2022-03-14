@@ -56,11 +56,11 @@ const Header = () => {
               </div>
 
               <div className="flex items-center">
-                <div className="hidden md:block xl:mr-20">
-                  <div className="ml-10 flex font-Jbrains items-baseline space-x-6">
+                <div className="hidden md:block xl:mr-10">
+                  <div className="ml-10 flex font-Jbrains items-baseline space-x-4">
                     <span className=" text-gray-300 px-3 py-2 text-sm hover-underline ">
                       <AnchorLink aria-label="hero section" href="#home">
-                        Home
+                        About
                       </AnchorLink>
                     </span>
                     <span className=" text-gray-300 px-3 py-2 text-sm  hover-underline ">
@@ -96,7 +96,7 @@ const Header = () => {
                     >
                       <button
                         aria-label="download resume"
-                        className="w-full p-3 text-sm tracking-wide font-inter rounded border border-purpley text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley"
+                        className="w-full p-3 ring-1 ring-purpley hover:bg-[#2d2d44] hover:text-purpley text-sm tracking-wide font-inter rounded text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley"
                       >
                         Resume
                       </button>

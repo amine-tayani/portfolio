@@ -128,7 +128,7 @@ class MyDocument extends Document {
         </Head>
         <body
           className={
-            process.env.NODE_ENV == "devlopement" ? "debug-screens" : ""
+            process.env.NODE_ENV == "development" ? "debug-screens" : ""
           }
         >
           <Main />
