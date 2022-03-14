@@ -89,18 +89,6 @@ const Header = () => {
                         Contact
                       </AnchorLink>
                     </span>
-                    <a
-                      aria-label="resume link"
-                      href="/pdf/resume_Amine_Tayani.pdf"
-                      download="amine_tayani_resume.pdf"
-                    >
-                      <button
-                        aria-label="download resume"
-                        className="w-full p-3 ring-1 ring-purpley hover:bg-[#2d2d44] hover:text-purpley text-sm tracking-wide font-inter rounded text-gray-100 hover:bg-purpley transition ease-in-out duration-200 focus:outline-none focus:bg-purpley"
-                      >
-                        Resume
-                      </button>
-                    </a>
                   </div>
                 </div>
               </div>

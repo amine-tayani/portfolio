@@ -109,7 +109,13 @@
     width: 200px;
     right: 40px;
   }
-
+  #scrollBar::-webkit-scrollbar {
+    height: 6px;
+    @apply bg-transparent;
+  }
+  #scrollBar::-webkit-scrollbar-thumb {
+    @apply bg-[#44474e] rounded-xl;
+  }
   .li {
     list-style: none;
     margin-bottom: 50px;

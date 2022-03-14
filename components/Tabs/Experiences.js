@@ -47,7 +47,10 @@ const Experiences = () => {
       </div>
       <div className="flex flex-col sm:flex-row sm:space-x-12 sm:items-center w-full max-w-xl lg:max-w-3xl sm:px-0">
         <Tab.Group defaultIndex={0}>
-          <Tab.List className="flex flex-row sm:flex-col overflow-x-scroll sm:overflow-hidden max-w-[250px] sm:max-w-full">
+          <Tab.List
+            id="scrollBar"
+            className="flex flex-row sm:flex-col overflow-x-scroll sm:overflow-hidden max-w-[250px] sm:max-w-full"
+          >
             {experiences.map((exp) => (
               <Tab
                 key={exp.id}
