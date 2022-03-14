@@ -13,7 +13,7 @@ export const experiences = [
   {
     id: 2,
     role: "Software Developer",
-    company_name: "Global Vision",
+    company_name: "GlobalVision",
     tasks: [
       "Built a smoke detection system that use image processing ,object detection and machine learning",
       "Worked with the Python language and its Libraries like OpenCV ,Pandas and Numpy",

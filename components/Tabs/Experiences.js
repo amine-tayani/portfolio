@@ -7,9 +7,18 @@ function classNames(...classes) {
 }
 
 const container = {
-  hidden: { opacity: 0 },
   show: {
     opacity: 1,
+    transition: {
+      when: "beforeChildren",
+      staggerChildren: 0.3,
+    },
+  },
+  hidden: {
+    opacity: 0,
+    transition: {
+      when: "afterChildren",
+    },
   },
 };
 
@@ -28,7 +37,7 @@ const variants = {
 const Experiences = () => {
   return (
     <div
-      className="w-full mt-32 mx-10 max-w-lg sm:mx-12 md:mx-20 lg:mx-64 font-inter"
+      className="w-full mt-32 mx-10 max-w-lg sm:max-w-3xl sm:mx-12 md:mx-20 lg:mx-64 font-inter"
       id="experiences"
     >
       <div className="">
@@ -36,23 +45,25 @@ const Experiences = () => {
           Where I've worked
         </h1>
       </div>
-      <div className="flex flex-col space-x-0 sm:flex-row sm:space-x-8 sm:items-center  w-full max-w-xl lg:max-w-3xl sm:px-0">
+      <div className="flex flex-col sm:flex-row sm:space-x-12 sm:items-center w-full max-w-xl lg:max-w-3xl sm:px-0">
         <Tab.Group defaultIndex={0}>
-          <Tab.List className="flex flex-row sm:flex-col">
+          <Tab.List className="flex flex-row sm:flex-col overflow-x-scroll sm:overflow-hidden max-w-[250px] sm:max-w-full">
             {experiences.map((exp) => (
               <Tab
                 key={exp.id}
                 className={({ selected }) =>
                   classNames(
-                    "w-32 sm:w-36 py-3 text-left px-4 text-sm sm:text-lg rounded-sm hover:bg-[#2d2d44] hover:text-purpley hover:ring-1 hover:ring-purpley",
+                    "w-32 sm:w-56 sm:border-l border-[#79759C] py-3 text-left px-6 text-sm sm:text-base rounded-sm hover:bg-[#2d2d44] hover:text-purpley",
                     "focus:outline-none transition-all duration-300 ease-in-out",
                     selected
-                      ? " ring-1 ring-purpley bg-[#2d2d44] text-purpley"
+                      ? " text-purpley sm:border-l border-purpley"
                       : "text-[#79759C] hover:text-purpley"
                   )
                 }
               >
-                {exp.company_name}
+                <motion.div transition={{ duration: 1.2 }}>
+                  {exp.company_name}
+                </motion.div>
               </Tab>
             ))}
           </Tab.List>
@@ -61,7 +72,7 @@ const Experiences = () => {
               <Tab.Panel
                 key={exp.id}
                 className={classNames(
-                  " p-3 mt-12 sm:mt-0",
+                  " p-3 mt-12 max-w-[300px] sm:mt-0 sm:p-0 sm:max-w-full",
                   "focus:outline-none"
                 )}
               >
@@ -71,14 +82,14 @@ const Experiences = () => {
                   variants={variants}
                   className="flex flex-col space-y-2 tracking-tight"
                 >
-                  <h1 className="text-[#F1EDFF] font-bold text-xl">
+                  <h1 className="text-[#F1EDFF] font-bold sm:text-xl ">
                     {exp.role} - {"  "}
                     <span className="text-purpley font-Jbrains">
                       {exp.company_name}
                     </span>
                   </h1>
 
-                  <p className=" text-[#79759C] text-lg">
+                  <p className=" text-[#79759C] sm:text-lg">
                     {exp.job_date} , {exp.location}
                   </p>
                   <motion.ul
@@ -89,8 +100,10 @@ const Experiences = () => {
                   >
                     {exp.tasks.map((task) => (
                       <motion.li variants={item}>
-                        <div className="p-2 sm:mx-2 text-[#ACA9BB]">
-                          <span className="leading-6"> - {task}</span>
+                        <div className="p-2 text-[#ACA9BB]">
+                          <span className="leading-6 text-sm sm:text-base">
+                            {task}
+                          </span>
                         </div>
                       </motion.li>
                     ))}
