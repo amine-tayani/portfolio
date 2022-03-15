@@ -45,21 +45,21 @@ const Experiences = () => {
           Where I've worked
         </h1>
       </div>
-      <div className="flex flex-col sm:flex-row sm:space-x-12 sm:items-center w-full max-w-xl lg:max-w-3xl sm:px-0">
+      <div className="flex flex-col -ml-2 sm:-ml-0 sm:flex-row sm:space-x-12 sm:items-center lg:max-w-3xl sm:px-0">
         <Tab.Group defaultIndex={0}>
           <Tab.List
             id="scrollBar"
-            className="flex flex-row sm:flex-col overflow-x-scroll sm:overflow-hidden max-w-[250px] sm:max-w-full"
+            className=" flex flex-row justify-center space-x-4 sm:space-x-0 sm:flex-col overflow-x-scroll sm:overflow-hidden max-w-xs sm:max-w-full"
           >
             {experiences.map((exp) => (
               <Tab
                 key={exp.id}
                 className={({ selected }) =>
                   classNames(
-                    "w-32 sm:w-56 sm:border-l border-[#79759C] py-3 text-left px-6 text-sm sm:text-base rounded-sm hover:bg-[#2d2d44] hover:text-purpley",
+                    " sm:w-56 sm:border-l sm:border-[#79759C] py-3 text-left sm:px-6 text-sm sm:text-base rounded-sm sm:hover:bg-[#2d2d44] hover:text-purpley",
                     "focus:outline-none transition-all duration-300 ease-in-out",
                     selected
-                      ? " text-purpley sm:border-l border-purpley"
+                      ? " text-purpley sm:border-l sm:border-purpley"
                       : "text-[#79759C] hover:text-purpley"
                   )
                 }
@@ -75,7 +75,7 @@ const Experiences = () => {
               <Tab.Panel
                 key={exp.id}
                 className={classNames(
-                  " p-3 mt-12 max-w-[300px] sm:mt-0 sm:p-0 sm:max-w-full",
+                  "p-1 mt-4 max-w-xs sm:mt-0 sm:p-0 sm:max-w-full",
                   "focus:outline-none"
                 )}
               >
