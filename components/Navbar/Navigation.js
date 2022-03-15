@@ -10,10 +10,10 @@ const variants = {
   },
 };
 
-export const Navigation = () => (
+export const Navigation = ({ toggle }) => (
   <motion.ul variants={variants} className="ul">
     {linkNames.map((linkname) => (
-      <MenuItem link={linkname} key={linkname} />
+      <MenuItem link={linkname} key={linkname} toggle={toggle} />
     ))}
   </motion.ul>
 );

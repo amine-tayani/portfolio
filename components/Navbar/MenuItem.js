@@ -18,7 +18,7 @@ const variants = {
   },
 };
 
-export const MenuItem = ({ link }) => {
+export const MenuItem = ({ link, toggle }) => {
   return (
     <motion.li
       className="li"
@@ -27,6 +27,7 @@ export const MenuItem = ({ link }) => {
       whileTap={{ scale: 0.95 }}
     >
       <AnchorLink
+        onClick={toggle}
         aria-label={link}
         className="text-xl text-[#ACA9BB] font-Jbrains mb-a"
         href={`#${link}`}

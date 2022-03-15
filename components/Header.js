@@ -100,7 +100,7 @@ const Header = () => {
                   ref={containerRef}
                 >
                   <motion.div className="background" variants={sidebar} />
-                  <Navigation />
+                  <Navigation toggle={() => toggleOpen()} />
                   <MenuToggle toggle={() => toggleOpen()} />
                 </motion.nav>
               </div>
