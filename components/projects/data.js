@@ -1,6 +1,15 @@
 export const data = [
   {
     id: 1,
+    Stack: ["Next", "React.js", "TailwindCSS", "NextAuth", "TypeScript"],
+    Title: "Appeo",
+    Description:
+      "Appeo is a Web application that allows Job Hunters Manage potential employers and their lists of requirements, as well as track the status of your applications.",
+    GithubLink: "https://github.com/amine-tayani/trace",
+    Preview: "https://traceapp.vercel.app/",
+  },
+  {
+    id: 2,
     Stack: ["Next", "React.js", "Express", "Graphql", "Prisma"],
     Title: "Glasnik",
     Description:
@@ -9,7 +18,7 @@ export const data = [
     Preview: "https://github.com/amine-tayani/glasnik_api",
   },
   {
-    id: 2,
+    id: 3,
     Stack: ["Python", "Open-cv", "Raspberry-Pi"],
     Title: "Auto-Attendance",
     Description:
@@ -18,7 +27,7 @@ export const data = [
     Preview: "",
   },
   {
-    id: 3,
+    id: 4,
     Stack: ["Html-Css", "Laravel", "Mysql"],
     Title: "ESTC-Learning",
     Description:
@@ -27,7 +36,7 @@ export const data = [
     Preview: "",
   },
   {
-    id: 4,
+    id: 5,
     Stack: ["Nextjs", "TailwindCSS"],
     Title: "Foundation template",
     Description:
@@ -36,7 +45,7 @@ export const data = [
     Preview: "https://nftoundation.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     Stack: ["React js", "Firebase"],
     Title: "Blaazit",
     Description:
@@ -45,7 +54,7 @@ export const data = [
     Preview: "",
   },
   {
-    id: 6,
+    id: 7,
     Stack: ["React Js", "Rapid-API"],
     Title: "Ko-19 Tracker",
     Description:
