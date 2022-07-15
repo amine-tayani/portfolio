@@ -1,10 +1,10 @@
 export const data = [
   {
     id: 1,
-    Stack: ["Next", "React.js", "TailwindCSS", "NextAuth", "TypeScript"],
+    Stack: ["Next", "TypeScript", "React.js", "TailwindCSS"],
     Title: "Appeo",
     Description:
-      "Appeo is a Web application that allows Job Hunters Manage potential employers and their lists of requirements, as well as track the status of your applications.",
+      "Appeo is a Web application that allows Job Hunters Manage potential employers, as well as track the status of your applications.",
     GithubLink: "https://github.com/amine-tayani/trace",
     Preview: "",
   },
