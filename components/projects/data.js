@@ -40,7 +40,7 @@ export const data = [
     Stack: ["Nextjs", "TailwindCSS"],
     Title: "Foundation template",
     Description:
-      "I built this Foundation app template with tailwindCSS and NextJS for client",
+      "The Foundation app is a rebuild version of https://zora.co, which I created as part of my freelancing work.",
     GithubLink: "https://github.com/amine-tayani/project",
     Preview: "https://nftoundation.vercel.app/",
   },
@@ -58,7 +58,7 @@ export const data = [
     Stack: ["React Js", "Rapid-API"],
     Title: "Ko-19 Tracker",
     Description:
-      "A website that informs you with the latest Coronavirus stats of morocco: total and new cases, deaths per day recoveries, and current active cases",
+      "A website that informs you with the latest Coronavirus stats of morocco: total and new cases and current active cases and also interactive graphs",
     GithubLink: "https://github.com/amine-tayani/CovidMorocco.git",
     Preview: "",
   },
