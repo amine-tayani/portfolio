@@ -5,8 +5,8 @@ export const data = [
     Title: "Appeo",
     Description:
       "Appeo is a Web application that allows Job Hunters Manage potential employers, as well as track the status of your applications.",
-    GithubLink: "https://github.com/amine-tayani/trace",
-    Preview: "",
+    GithubLink: "https://github.com/amine-tayani/appeo",
+    Preview: "https://appeo.vercel.app",
   },
   {
     id: 2,
