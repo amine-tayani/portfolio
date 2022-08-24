@@ -51,7 +51,6 @@ const Experiences = () => {
             id="scrollBar"
             className=" flex flex-row justify-center space-x-4 sm:space-x-0 sm:flex-col overflow-x-scroll sm:overflow-hidden max-w-xs sm:max-w-full"
           >
-            <span className="absolute top-0 left-0 z-[10] w-[2px] h-[47px] bg-green-600 translate-y-4">+</span>
             {experiences.map((exp) => (
               <Tab
                 key={exp.id}
@@ -70,6 +69,8 @@ const Experiences = () => {
                 </motion.div>
               </Tab>
             ))}
+                 <span className="absolute top-0 left-0 z-[10] w-[2px] h-[47px] bg-green-600 translate-y-4">+</span>
+
           </Tab.List>
           <Tab.Panels className="mt-2">
             {experiences.map((exp) => (
