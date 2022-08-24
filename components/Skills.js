@@ -44,7 +44,7 @@ const Skills = () => {
           {skills.map((skill, index) => {
             return (
               <li key={index} className="flex items-center space-x-2">
-                <span className="text-purple-600 text-lg">▹</span>
+                <span className="text-purple-600 text-lg font-semibold">▹</span>
                 <span className="text-gray-200 text-sm">{skill}</span>
               </li>
             );
