@@ -56,10 +56,10 @@ const Experiences = () => {
                 key={exp.id}
                 className={({ selected }) =>
                   classNames(
-                    " sm:w-56 sm:border-l sm:border-[#79759C] py-3 text-left sm:px-6 text-sm sm:text-base rounded-sm sm:hover:bg-[#2d2d44] hover:text-purpley",
+                    " sm:w-56 sm:border-l-lg sm:border-[#79759C] py-3 text-left sm:px-6 text-sm sm:text-base rounded-sm sm:hover:bg-[#2d2d44] hover:text-purpley",
                     "focus:outline-none transition-all duration-300 ease-in-out",
                     selected
-                      ? " text-purpley sm:border-l sm:border-purpley"
+                      ? " text-purpley sm:border-l-lg sm:border-purpley"
                       : "text-[#79759C] hover:text-purpley"
                   )
                 }
