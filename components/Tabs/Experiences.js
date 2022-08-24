@@ -59,7 +59,7 @@ const Experiences = () => {
                     " sm:w-56 sm:border-l-[3px] sm:border-[#79759c1a] py-3 text-left sm:px-6 text-sm sm:text-base rounded-sm sm:hover:bg-[#2d2d44] hover:text-purpley",
                     "focus:outline-none transition-all duration-500 ease-in-out",
                     selected
-                      ? " text-purpley sm:border-l-[3px] sm:border-[#6c63ffe6]"
+                      ? " text-purpley sm:border-l-[3px] sm:border-[#6c63ffe6] translate-y-6"
                       : "text-[#79759C] hover:text-purpley"
                   )
                 }
