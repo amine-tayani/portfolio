@@ -51,8 +51,9 @@ const Experiences = () => {
             id="scrollBar"
             className=" flex flex-row justify-center space-x-4 sm:space-x-0 sm:flex-col overflow-x-scroll sm:overflow-hidden max-w-xs sm:max-w-full"
           >
+                          <span>+</span>
+
             {experiences.map((exp) => (
-              <>
               <Tab
                 key={exp.id}
                 className={({ selected }) =>
@@ -69,8 +70,6 @@ const Experiences = () => {
                   {exp.company_name}
                 </motion.div>
               </Tab>
-              <span>+</span>
-              </>
             ))}
           </Tab.List>
           <Tab.Panels className="mt-2">
