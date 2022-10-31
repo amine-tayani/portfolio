@@ -62,4 +62,13 @@ export const data = [
     GithubLink: "https://github.com/amine-tayani/CovidMorocco.git",
     Preview: "",
   },
+  {
+    id: 8,
+    Stack: ["Python", "Tensorflow","Matplotlib"],
+    Title: "Fire Detection System",
+    Description:
+      "This report presents the work i have done during my internship GLOBAL VISION company which took place from April 15 to May 31, 2019 namely the study of a global description of the site and the development of a smoke detection application from a video sequence or an image",
+    GithubLink: "",
+    Preview: "https://etuunivh2cma-my.sharepoint.com/:b:/g/personal/amine_tayani-etu_etu_univh2c_ma/EdMKjfmwiuBImN7EmvOOr3IBeItJNglsG-tlGf6bBKeOvw?e=Kfe1No",
+  },
 ];
