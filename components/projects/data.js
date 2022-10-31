@@ -67,7 +67,7 @@ export const data = [
     Stack: ["Python", "Tensorflow","Matplotlib"],
     Title: "Fire Detection System",
     Description:
-      "This report presents my internship work at GLOBAL-VISION company which took place in Casablanca namely the study and development of a smoke detection application from a video sequence or an image",
+      "This is my internship report at GLOBAL-VISION company namely the study and development of a smoke detection application from a video sequence or an image",
     GithubLink: "",
     Preview: "https://etuunivh2cma-my.sharepoint.com/:b:/g/personal/amine_tayani-etu_etu_univh2c_ma/EdMKjfmwiuBImN7EmvOOr3IBeItJNglsG-tlGf6bBKeOvw?e=Kfe1No",
   },
