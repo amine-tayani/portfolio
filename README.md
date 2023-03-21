@@ -10,6 +10,6 @@ My portfolio was built using the Next js framework developed by [Vercel](https:/
 
 
 
-You can check it out at [Portfolio](https://aminetayani.me)
+You can check it out at [Portfolio](https://aminet-aminet.vercel.app/)
 
 
