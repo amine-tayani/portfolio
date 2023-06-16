@@ -23,7 +23,7 @@ export const data = [
     Title: "Auto-Attendance",
     Description:
       "Auto-Attendance is a system that manage class attendance using face recognition in real-time using Raspberry Pi model 3 B+",
-    GithubLink: "",
+    GithubLink: "https://github.com/amine-tayani/gestion-abs",
     Preview: "",
   },
   {
