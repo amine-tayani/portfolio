@@ -20,9 +20,9 @@ export const data = [
   {
     id: 3,
     Stack: ["Python", "Open-cv", "Raspberry-Pi"],
-    Title: "Auto-Attendance",
+    Title: "gestion d'absence",
     Description:
-      "Auto-Attendance is a system that manage class attendance using face recognition in real-time using Raspberry Pi model 3 B+",
+      "Gestion d'absence is a system that manage class attendance using face recognition in real-time using Raspberry Pi model 3 B+",
     GithubLink: "https://github.com/amine-tayani/gestion-abs",
     Preview: "",
   },
@@ -71,4 +71,17 @@ export const data = [
     GithubLink: "",
     Preview: "https://etuunivh2cma-my.sharepoint.com/:b:/g/personal/amine_tayani-etu_etu_univh2c_ma/EdMKjfmwiuBImN7EmvOOr3IBeItJNglsG-tlGf6bBKeOvw?e=Kfe1No",
   },
+  {
+    id: 9,
+    Stack: ["HTML/CSS", "MYSQL","PHP"],
+    Title: "OCP-Gestion-med ",
+    Description:
+      "This is my inaugural internship project at OCP Group, where I assist the company in effectively managing medical consultations for employees",
+    GithubLink: "https://github.com/amine-tayani/gm-ocp",
+    Preview: "",
+  },
+  {
+
+  }
 ];
+
