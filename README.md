@@ -1,7 +1,7 @@
 # Amine Tayani's Portfolio
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/[your-username]/[your-repo]/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/[your-username]/[your-repo])](https://github.com/[your-username]/[your-repo]/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/amine-tayani/portfolio/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/amine-tayani/portfolio)](https://github.com/amine-tayani/portfolio/stargazers)
 
 Welcome to my portfolio! This repository showcases my work as a Full Stack Developer and provides an overview of my skills, projects, and contributions. Feel free to explore and get in touch with me for any feedback or work inquiries.
 
