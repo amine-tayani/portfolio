@@ -7,6 +7,7 @@ import { motion, useCycle } from "framer-motion";
 import { Navigation } from "@/components/Navbar/Navigation";
 import { MenuToggle } from "@/components/Navbar/MenuToggle";
 import { useDimensions } from "@/hooks/useDimensions";
+import Image from "next/image";
 
 const Header = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);
@@ -42,20 +43,13 @@ const Header = () => {
           <div className="max-w-full mx-auto sm:px-6 md:mx-2 lg:mx-0 px-8 lg:px-16 xl:px-32 xl:mx-6 my-4">
             <div className="flex items-center justify-between h-16">
               <div className="z-10 sm:flex flex-shrink-0 space-x-3">
-                <svg
-                  className="h-12 w-12"
-                  fill="none"
-                  stroke="#6c63ff"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1"
-                    d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  ></path>
-                </svg>
+                <Image
+                  src="/assets/logo.png"
+                  width={1080}
+                  height={1080}
+                  alt="Header Image"
+                  className="rounded w-28 h-28 mt-8"
+                />
               </div>
 
               <div className="flex items-center">
