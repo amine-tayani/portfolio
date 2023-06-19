@@ -8,10 +8,10 @@ Welcome to my portfolio! This repository showcases my work as a Full Stack Devel
 ## Features
 
 - **Responsive Design**: The portfolio is designed to be responsive and accessible on all devices.
-- **Next.js 13**: The portfolio is built using Next.js 13 App router and Image component for optimized performance and SEO.
-- **Tailwind CSS**: styled using Tailwind CSS utility-first framework.
-- **Framer Motion**: Mobile Navbar animation is implemented using Framer Motion library.
-- **TypeScript**: for type safety and better code readability.
+- [**Next.js 13**](https://nextjs.org/docs): The portfolio is built using Next.js 13 App router and Image component for optimized performance and SEO.
+- [**Tailwind CSS**](https://tailwindcss.com/): styled using Tailwind CSS utility-first framework.
+- [**Framer Motion**](https://www.framer.com/motion/): Mobile Navbar animation is implemented using Framer Motion library.
+- [**TypeScript**](https://www.typescriptlang.org/): for type safety and better code readability.
 
 ## Contact
 
