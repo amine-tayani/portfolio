@@ -3,34 +3,6 @@
 @tailwind utilities;
 
 @layer utilities {
-  @font-face {
-    font-family: "quicksand";
-    src: url("/fonts/quicksand/Quicksand-Regular.ttf");
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "quicksand";
-    src: url("/fonts/quicksand/Quicksand-Bold.ttf");
-    font-style: bold;
-    font-weight: 700;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-Regular.ttf");
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-Bold.ttf");
-    font-style: bold;
-    font-weight: 700;
-    font-display: swap;
-  }
   .nav {
     position: absolute;
     top: 0;
@@ -50,9 +22,7 @@
   .btn {
     outline: none;
     border: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    user-select: none;
     cursor: pointer;
     position: absolute;
     top: 18px;
@@ -86,6 +56,7 @@
   }
   html {
     @apply overflow-x-hidden;
+    font-family: "Inter", sans-serif;
   }
   body {
     background-color: #222233;
@@ -93,7 +64,6 @@
     height: 100vh;
     padding: 0;
     margin: 0;
-    font-family: "quicksand";
   }
   body::-webkit-scrollbar {
     width: 0.3em;

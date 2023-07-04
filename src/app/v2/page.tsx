@@ -1,15 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Montserrat } from "next/font/google";
-
-const montserrat = Montserrat({
-  display: "swap",
-  subsets: ["latin"],
-});
+import ScrollToTop from "@/components/v2/ScrollToTop";
+import NavigationLinks from "@/components/v2/NavigationLinks";
 
 export default function Home() {
   return (
-    <div lang="en" className={montserrat.className}>
+    <div lang="en">
       <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
         <div className="group/spotlight relative">
           <div
@@ -32,53 +28,14 @@ export default function Home() {
                   <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
                     <a href="/">Amine Tayani</a>
                   </h1>
-                  <h2 className="mt-3 text-xl font-medium text-slate-200 sm:text-xl">
+                  <h2 className="mt-3 text-xl font-medium text-slate-200 sm:text-xl tracking-tight">
                     Full Stack Developer
                   </h2>
                   <p className="mt-4 max-w-xs leading-normal">
                     My focus is on building engaging and functional experiences
                     for the web.
                   </p>
-                  <nav
-                    className="nav hidden lg:block"
-                    aria-label="In-page jump links"
-                  >
-                    <ul className="my-80 w-max">
-                      <li>
-                        <Link
-                          className="group flex items-center py-3 active"
-                          href="#about"
-                        >
-                          <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                          <span className="nav-text hover:scale-110 text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-                            About
-                          </span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="group flex items-center py-3"
-                          href="#experience"
-                        >
-                          <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"></span>
-                          <span className="nav-text hover:scale-110 text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-                            Experience
-                          </span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="group flex items-center py-3"
-                          href="#projects"
-                        >
-                          <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"></span>
-                          <span className="nav-text hover:scale-110 text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-                            Projects
-                          </span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </nav>
+                  <NavigationLinks />
                 </div>
                 <ul
                   className="ml-1 mt-8 flex items-center"
@@ -587,7 +544,7 @@ export default function Home() {
                       <Link
                         className="inline-flex items-center leading-tight text-slate-200 font-semibold group"
                         aria-label="View Full Résumé"
-                        href="/resume.pdf"
+                        href="/assets/CV-AMINE-TAYANI.pdf"
                       >
                         <span>
                           <span className=" border-b border-transparent pb-px transition group-hover:border-teal-300">
@@ -802,6 +759,83 @@ export default function Home() {
                               >
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
+                                  Built a Covid 19{" "}
+                                  <span className="inline-block">
+                                    {" "}
+                                    Tracker
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 20 20"
+                                      fill="currentColor"
+                                      className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        fillRule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clipRule="evenodd"
+                                      ></path>
+                                    </svg>
+                                  </span>
+                                </span>
+                              </Link>
+                            </h3>
+                            <p className="mt-2 text-sm leading-normal">
+                              A website that informs you with the latest
+                              Coronavirus stats of morocco: total and new cases
+                              and current active cases and also interactive
+                              graphs
+                            </p>
+                            <ul
+                              className="mt-2 flex flex-wrap"
+                              aria-label="Technologies used:"
+                            >
+                              <li className="mr-1.5 mt-2">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                  React
+                                </div>
+                              </li>
+                              <li className="mr-1.5 mt-2">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                  TailwindCSS
+                                </div>
+                              </li>
+                              <li className="mr-1.5 mt-2">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                  Recharts
+                                </div>
+                              </li>
+                              <li className="mr-1.5 mt-2">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                  Rapid Api
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <Image
+                            src="/assets/covid-morocco.jpeg"
+                            alt="Covid tracker project"
+                            width={800}
+                            height={800}
+                            className=" rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                            style={{ color: "transparent" }}
+                          />
+                        </div>
+                      </li>
+                      <li className="mb-12">
+                        <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                          <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                          <div className="z-10 sm:order-2 sm:col-span-6">
+                            <h3>
+                              <Link
+                                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                                href="https://www.newline.co/courses/build-a-spotify-connected-app"
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="Build a Spotify Connected App"
+                              >
+                                <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                <span>
                                   Build a fire detection{" "}
                                   <span className="inline-block">
                                     {" "}
@@ -836,6 +870,76 @@ export default function Home() {
                             width={800}
                             height={800}
                             className=" rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                            style={{ color: "transparent" }}
+                          />
+                        </div>
+                      </li>
+                      <li className="mb-12">
+                        <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                          <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                          <div className="z-10 sm:order-2 sm:col-span-6">
+                            <h3>
+                              <Link
+                                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                                href="https://spotify-profile.herokuapp.com/"
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="Spotify Profile"
+                              >
+                                <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                <span>
+                                  Gestion d{"'"}absence{" "}
+                                  <span className="inline-block">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 20 20"
+                                      fill="currentColor"
+                                      className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        fillRule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clipRule="evenodd"
+                                      ></path>
+                                    </svg>
+                                  </span>
+                                </span>
+                              </Link>
+                            </h3>
+                            <p className="mt-2 text-sm leading-normal">
+                              Gestion d{"'"}absence is a system that manage
+                              class attendance using face recognition in
+                              real-time using Raspberry Pi model 3 B+
+                            </p>
+
+                            <ul
+                              className="mt-2 flex flex-wrap"
+                              aria-label="Technologies used:"
+                            >
+                              <li className="mr-1.5 mt-2">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                  Python
+                                </div>
+                              </li>
+                              <li className="mr-1.5 mt-2">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                  OpenCV
+                                </div>
+                              </li>
+                              <li className="mr-1.5 mt-2">
+                                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                                  Raspberry Pi 3 B+
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <Image
+                            src={"/assets/facial-recognition.png"}
+                            alt="gestion-medicale-project"
+                            width="800"
+                            height="800"
+                            className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                             style={{ color: "transparent" }}
                           />
                         </div>
@@ -928,7 +1032,7 @@ export default function Home() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Visual Studio Code
+                      VS Code
                     </Link>{" "}
                     by yours truly. Built with{" "}
                     <Link
@@ -957,41 +1061,10 @@ export default function Home() {
                     >
                       Vercel
                     </Link>
-                    . All text is set in the{" "}
-                    <Link
-                      href="https://rsms.me/inter/"
-                      className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Inter
-                    </Link>{" "}
-                    typeface.
                   </p>
                 </footer>
               </main>
-              <div>
-                <button
-                  className="hover:-text-teal-300 absolute bottom-0 right-0 inline-flex items-center px-2 py-4 font-medium text-slate-400 hover:-translate-y-2 focus-visible:text-teal-300"
-                  type="button"
-                  aria-haspopup="dialog"
-                  aria-expanded="false"
-                  aria-controls="radix-:R4l6:"
-                  data-state="closed"
-                >
-                  <span className="sr-only">Click to time travel</span>
-                  <Image
-                    src="https://images.com/image.png"
-                    alt="Spinning Tardis from Doctor Who"
-                    loading="lazy"
-                    width="100"
-                    height="86"
-                    decoding="async"
-                    data-nimg="1"
-                    style={{ color: "transparent" }}
-                  />
-                </button>
-              </div>
+              <ScrollToTop />
             </div>
           </div>
         </div>
