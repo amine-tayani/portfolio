@@ -2,8 +2,6 @@ import "../../globals.css";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: "Amine Tayani - Portfolio",
   description: "Amine Tayani's Portfolio",
@@ -14,6 +12,10 @@ export const metadata: Metadata = {
   publisher: "Amine Tayani",
   robots: "index, follow",
 };
+
+const inter = Inter({
+  subsets: ["latin"],
+});
 
 export default function RootLayout({
   children,

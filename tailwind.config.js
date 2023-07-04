@@ -6,6 +6,9 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      inter: "Inter",
+    },
     extend: {
       colors: {
         "darkest-gray": "#112240",
