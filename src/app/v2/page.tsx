@@ -2,19 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import ScrollToTop from "@/components/v2/ScrollToTop";
 import NavigationLinks from "@/components/v2/NavigationLinks";
+import MouseTracker from "@/components/v2/MouseTracker";
 
 export default function Home() {
   return (
     <div lang="en">
       <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
         <div className="group/spotlight relative">
-          <div
-            className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
-            style={{
-              background:
-                "radial-gradient(600px at 770px 66px, rgba(29, 78, 216, 0.15), transparent 80%)",
-            }}
-          ></div>
+          <MouseTracker />
           <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
             <Link
               href="#content"
