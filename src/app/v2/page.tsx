@@ -4,7 +4,8 @@ import ScrollToTop from "@/components/v2/ScrollToTop";
 import NavigationLinks from "@/components/v2/NavigationLinks";
 import MouseTracker from "@/components/v2/MouseTracker";
 
-export default function Home() {
+export default function Home({ params }: { params: { slug: string } }) {
+  console.log(params);
   return (
     <div lang="en">
       <div className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
@@ -33,7 +34,7 @@ export default function Home() {
                   <NavigationLinks />
                 </div>
                 <ul
-                  className="ml-1 mt-8 flex items-center"
+                  className="ml-1 mt-8 flex items-center absolute bottom-0 top-[70%]"
                   aria-label="Social media"
                 >
                   <li className="mr-5 text-xs">
@@ -58,7 +59,7 @@ export default function Home() {
                   <li className="mr-5 text-xs">
                     <Link
                       className="block hover:text-slate-200"
-                      href="https://instagram.com/bchiang7"
+                      href="#"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -77,7 +78,7 @@ export default function Home() {
                   <li className="mr-5 text-xs">
                     <Link
                       className="block hover:text-slate-200"
-                      href="https://twitter.com/bchiang7"
+                      href="#"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -134,7 +135,7 @@ export default function Home() {
                       JavaScript. With expertise in{" "}
                       <Link
                         className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                        href="https://upstatement.com/"
+                        href="https://nodejs.org/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -143,7 +144,7 @@ export default function Home() {
                       ,{" "}
                       <Link
                         className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                        href="https://upstatement.com/"
+                        href="https://expressjs.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -153,7 +154,7 @@ export default function Home() {
                       ,{" "}
                       <Link
                         className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                        href="https://upstatement.com/"
+                        href="https://react.dev/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -162,7 +163,7 @@ export default function Home() {
                       , and{" "}
                       <Link
                         className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-                        href="https://upstatement.com/"
+                        href="https://nextjs.org/"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -205,7 +206,7 @@ export default function Home() {
                           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                           <header
                             className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                            aria-label="2018 to Present"
+                            aria-label=" Mar - Sep 2021"
                           >
                             Mar - Sep 2021
                           </header>
@@ -303,7 +304,7 @@ export default function Home() {
                           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                           <header
                             className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                            aria-label="July to December 2017"
+                            aria-label="Apr to July 2020"
                           >
                             Apr - July 2020
                           </header>
@@ -312,10 +313,10 @@ export default function Home() {
                               <div>
                                 <a
                                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                  href="https://www.apple.com/apple-music/"
+                                  href="http://www.est-uh2c.ac.ma/"
                                   target="_blank"
                                   rel="noreferrer"
-                                  aria-label="UI Engineer Co-op at Apple"
+                                  aria-label="Full Stack Developer At EST Casablanca"
                                 >
                                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                   <span>
@@ -382,7 +383,7 @@ export default function Home() {
                           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                           <header
                             className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                            aria-label="2016 to 2017"
+                            aria-label="Apr to June 2019"
                           >
                             Apr - June 2019
                           </header>
@@ -391,10 +392,10 @@ export default function Home() {
                               <div>
                                 <Link
                                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                  href="https://scout.camd.northeastern.edu/"
+                                  href="https://www.globalvision.ma/"
                                   target="_blank"
                                   rel="noreferrer"
-                                  aria-label="Developer at Scout Studio"
+                                  aria-label=" Software Developer at GLOBAL VISION"
                                 >
                                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                   <span>
@@ -460,7 +461,7 @@ export default function Home() {
                           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                           <header
                             className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
-                            aria-label="July to December 2016"
+                            aria-label=" July to Aug 2018"
                           >
                             July - Aug 2018
                           </header>
@@ -469,10 +470,10 @@ export default function Home() {
                               <div>
                                 <Link
                                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                  href="https://starry.com/"
+                                  href="https://www.ocpgroup.ma/"
                                   target="_blank"
                                   rel="noreferrer"
-                                  aria-label="Software Engineer Co-op at Starry"
+                                  aria-label="Web Developer at OCP Group"
                                 >
                                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                   <span>
@@ -561,7 +562,7 @@ export default function Home() {
                                 fillRule="evenodd"
                                 d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
                                 clipRule="evenodd"
-                              ></path>
+                              />
                             </svg>
                           </span>
                         </span>
@@ -588,10 +589,61 @@ export default function Home() {
                             <h3>
                               <Link
                                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                href="https://halcyon-theme.netlify.app/"
+                                href="https://portfolio-aminet.vercel.app/"
                                 target="_blank"
                                 rel="noreferrer"
-                                aria-label="Halcyon Theme"
+                                aria-label="Portfolio"
+                              >
+                                <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                                <span>
+                                  Portfolio{" "}
+                                  <span className="inline-block">
+                                    V2
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 20 20"
+                                      fill="currentColor"
+                                      className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
+                                      aria-hidden="true"
+                                    >
+                                      <path
+                                        fillRule="evenodd"
+                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                        clipRule="evenodd"
+                                      />
+                                    </svg>
+                                  </span>
+                                </span>
+                              </Link>
+                            </h3>
+                            <p className="mt-2 text-sm leading-normal">
+                              This portfolio project showcases my skills as a
+                              full stack developer. Built using Next.js and
+                              Tailwind CSS, this project represents a perfect
+                              blend of powerful functionality and sleek design.
+                            </p>
+                          </div>
+                          <Image
+                            alt="foundation app"
+                            width="200"
+                            height="48"
+                            className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                            style={{ background: "transparent" }}
+                            src={"/assets/portfolio.png"}
+                          />
+                        </div>
+                      </li>
+                      <li className="mb-12">
+                        <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                          <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                          <div className="z-10 sm:order-2 sm:col-span-6">
+                            <h3>
+                              <Link
+                                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                                href="https://nftoundation.vercel.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                                aria-label="NFT foundation"
                               >
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
@@ -609,7 +661,7 @@ export default function Home() {
                                         fillRule="evenodd"
                                         d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
                                         clipRule="evenodd"
-                                      ></path>
+                                      />
                                     </svg>
                                   </span>
                                 </span>
@@ -624,7 +676,6 @@ export default function Home() {
                                 href="https://zora.co"
                                 target="_blank"
                                 rel="noreferrer"
-                                aria-label="Halcyon Theme"
                               >
                                 https://zora.co
                               </Link>
@@ -648,10 +699,9 @@ export default function Home() {
                             <h3>
                               <Link
                                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                href="https://halcyon-theme.netlify.app/"
+                                href="https://github.com/amine-tayani/glasnik_Web"
                                 target="_blank"
                                 rel="noreferrer"
-                                aria-label="Halcyon Theme"
                               >
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
@@ -697,10 +747,9 @@ export default function Home() {
                             <h3>
                               <Link
                                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                href="https://halcyon-theme.netlify.app/"
+                                href="https://github.com/amine-tayani/glasnik_api"
                                 target="_blank"
                                 rel="noreferrer"
-                                aria-label="Halcyon Theme"
                               >
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
@@ -718,7 +767,7 @@ export default function Home() {
                                         fillRule="evenodd"
                                         d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
                                         clipRule="evenodd"
-                                      ></path>
+                                      />
                                     </svg>
                                   </span>
                                 </span>
@@ -747,10 +796,9 @@ export default function Home() {
                             <h3>
                               <Link
                                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                href="https://www.newline.co/courses/build-a-spotify-connected-app"
+                                href="https://covid-morocco.vercel.app/"
                                 target="_blank"
                                 rel="noreferrer"
-                                aria-label="Build a Spotify Connected App"
                               >
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
@@ -769,7 +817,7 @@ export default function Home() {
                                         fillRule="evenodd"
                                         d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
                                         clipRule="evenodd"
-                                      ></path>
+                                      />
                                     </svg>
                                   </span>
                                 </span>
@@ -824,10 +872,10 @@ export default function Home() {
                             <h3>
                               <Link
                                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                href="https://www.newline.co/courses/build-a-spotify-connected-app"
+                                href="https://drive.google.com/file/d/16Xp7OJBUs_upXDeNlfTN8-8UdPXrVwgB/"
                                 target="_blank"
                                 rel="noreferrer"
-                                aria-label="Build a Spotify Connected App"
+                                aria-label="Build a fire detection"
                               >
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
@@ -876,10 +924,9 @@ export default function Home() {
                             <h3>
                               <Link
                                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                href="https://spotify-profile.herokuapp.com/"
+                                href="https://github.com/amine-tayani/gestion-abs"
                                 target="_blank"
                                 rel="noreferrer"
-                                aria-label="Spotify Profile"
                               >
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
@@ -946,10 +993,10 @@ export default function Home() {
                             <h3>
                               <Link
                                 className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                                href="https://spotify-profile.herokuapp.com/"
+                                href="https://github.com/amine-tayani/gm-ocp/"
                                 target="_blank"
                                 rel="noreferrer"
-                                aria-label="Spotify Profile"
+                                aria-label="OCP Gestion-Med"
                               >
                                 <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                                 <span>
