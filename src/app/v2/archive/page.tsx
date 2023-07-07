@@ -82,7 +82,7 @@ export default function archive() {
           </tr>
           <tr className="border-b border-slate-300/10 last:border-none">
             <td className="py-4 pr-4 align-top text-sm">
-              <div className="translate-y-px">2022</div>
+              <div className="translate-y-px">2019</div>
             </td>
             <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
               <div>
