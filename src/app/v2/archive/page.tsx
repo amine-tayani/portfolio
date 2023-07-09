@@ -51,10 +51,10 @@ export default function archive() {
             <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
               <div>
                 <div className="block sm:hidden">
-                  <span>Harvard Business School Design System</span>
+                  <span>Appeo : Job Applications tracking App</span>
                 </div>
                 <div className="hidden sm:block">
-                  Harvard Business School Design System
+                  Appeo : Job Applications tracking App
                 </div>
               </div>
             </td>
@@ -63,7 +63,7 @@ export default function archive() {
               <ul className="flex -translate-y-1.5 flex-wrap">
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Storybook
+                    Next.js
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
@@ -76,27 +76,70 @@ export default function archive() {
                     TypeScript
                   </div>
                 </li>
+                <li className="my-1 mr-1.5">
+                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                    TailwindCSS
+                  </div>
+                </li>
+                <li className="my-1 mr-1.5">
+                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                    framer-motion
+                  </div>
+                </li>
               </ul>
             </td>
-            <td className="hidden py-4 align-top sm:table-cell" />
+            <td className="hidden py-4 align-top sm:table-cell">
+              <ul className="translate-y-1">
+                <li className="mb-1 flex items-center">
+                  <Link
+                    className="inline-flex items-baseline font-medium leading-tight text-slate-400 hover:text-teal-300 focus-visible:text-teal-300 group/link text-sm"
+                    target="_blank"
+                    href="https://appeo.vercel.app/"
+                    rel="noreferrer"
+                    aria-label="appeo.vercel.app"
+                  >
+                    <span>
+                      <span className="inline-block">
+                        appeo.vercel.app
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5"
+                          aria-hidden="true"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </Link>
+                </li>
+              </ul>
+            </td>
           </tr>
+
           <tr className="border-b border-slate-300/10 last:border-none">
             <td className="py-4 pr-4 align-top text-sm">
-              <div className="translate-y-px">2019</div>
+              <div className="translate-y-px">2022</div>
             </td>
             <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
               <div>
                 <div className="block sm:hidden">
-                  <a
+                  <Link
                     className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
-                    href="https://apps.apple.com/app/apple-store/id1550995547?pt=122219983&ct=threadablebooks.com%20header&mt=8"
+                    href="https://github.com/amine-tayani/glasnik_mobile"
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="Threadable"
+                    aria-label="Glassnik Mobile App"
                   >
                     <span>
+                      Glasnik Mobile{" "}
                       <span className="inline-block">
-                        Threadable{" "}
+                        App{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -112,9 +155,9 @@ export default function archive() {
                         </svg>
                       </span>
                     </span>
-                  </a>
+                  </Link>
                 </div>
-                <div className="hidden sm:block">Threadable</div>
+                <div className="hidden sm:block">Glasnik Mobile App</div>
               </div>
             </td>
 
@@ -127,12 +170,22 @@ export default function archive() {
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Ruby on Rails
+                    Expo
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Firebase
+                    Typescript
+                  </div>
+                </li>
+                <li className="my-1 mr-1.5">
+                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                    GraphQL
+                  </div>
+                </li>
+                <li className="my-1 mr-1.5">
+                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                    @apollo/client
                   </div>
                 </li>
               </ul>
@@ -141,15 +194,15 @@ export default function archive() {
               <ul className="translate-y-1">
                 <li className="mb-1 flex items-center">
                   <a
-                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
-                    href="https://apps.apple.com/app/apple-store/id1550995547?pt=122219983&ct=threadablebooks.com%20header&mt=8"
+                    className="inline-flex items-baseline font-medium leading-tight hover:text-teal-300 text-slate-400 focus-visible:text-teal-300 group/link text-sm"
+                    href="https://github.com/amine-tayani/glasnik_mobile"
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="apps.apple.com"
+                    aria-label="Glasnik Mobile App"
                   >
                     <span>
                       <span className="inline-block">
-                        apps.apple.com{" "}
+                        glasnik.app{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -170,6 +223,7 @@ export default function archive() {
               </ul>
             </td>
           </tr>
+
           <tr className="border-b border-slate-300/10 last:border-none">
             <td className="py-4 pr-4 align-top text-sm">
               <div className="translate-y-px">2022</div>
@@ -179,14 +233,15 @@ export default function archive() {
                 <div className="block sm:hidden">
                   <a
                     className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
-                    href="https://www.pratt.edu/"
+                    href="https://github.com/amine-tayani/react-search-auto"
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="Pratt"
+                    aria-label="react-search-auto"
                   >
                     <span>
+                      react-search-auto{" "}
                       <span className="inline-block">
-                        Pratt{" "}
+                        {" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -204,7 +259,7 @@ export default function archive() {
                     </span>
                   </a>
                 </div>
-                <div className="hidden sm:block">Pratt</div>
+                <div className="hidden sm:block">react-search-auto</div>
               </div>
             </td>
 
@@ -212,27 +267,22 @@ export default function archive() {
               <ul className="flex -translate-y-1.5 flex-wrap">
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    WordPress
+                    Next.js
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Timber
+                    Typescript
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    WordPress Multisite
+                    Redux
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Gutenberg
-                  </div>
-                </li>
-                <li className="my-1 mr-1.5">
-                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    JavaScript
+                    TailwindCSS
                   </div>
                 </li>
               </ul>
@@ -241,15 +291,15 @@ export default function archive() {
               <ul className="translate-y-1">
                 <li className="mb-1 flex items-center">
                   <a
-                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
-                    href="https://www.pratt.edu/"
+                    className="inline-flex items-baseline font-medium leading-tight hover:text-teal-300 text-slate-400 focus-visible:text-teal-300 group/link text-sm"
+                    href="https://github.com/amine-tayani/react-search-auto"
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="pratt.edu"
+                    aria-label="react-search-auto"
                   >
                     <span>
                       <span className="inline-block">
-                        pratt.edu{" "}
+                        react.search{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -270,7 +320,6 @@ export default function archive() {
               </ul>
             </td>
           </tr>
-
           <tr className="border-b border-slate-300/10 last:border-none">
             <td className="py-4 pr-4 align-top text-sm">
               <div className="translate-y-px">2021</div>
@@ -278,17 +327,16 @@ export default function archive() {
             <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
               <div>
                 <div className="block sm:hidden">
-                  <a
+                  <Link
+                    href="https://github.com/amine-tayani/blaazit"
                     className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
-                    href="https://www.vanderbilt.edu/"
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="Vanderbilt Design System"
+                    aria-label="Blaazit github repo"
                   >
                     <span>
-                      Vanderbilt Design{" "}
                       <span className="inline-block">
-                        System{" "}
+                        Blaazit{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -304,9 +352,9 @@ export default function archive() {
                         </svg>
                       </span>
                     </span>
-                  </a>
+                  </Link>
                 </div>
-                <div className="hidden sm:block">Vanderbilt Design System</div>
+                <div className="hidden sm:block">Blaazit</div>
               </div>
             </td>
 
@@ -314,17 +362,27 @@ export default function archive() {
               <ul className="flex -translate-y-1.5 flex-wrap">
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Twig
+                    React.js
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Puppy
+                    Express
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    JavaScript
+                    TailwindCSS
+                  </div>
+                </li>
+                <li className="my-1 mr-1.5">
+                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                    MongoDB
+                  </div>
+                </li>
+                <li className="my-1 mr-1.5">
+                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                    Axios
                   </div>
                 </li>
               </ul>
@@ -332,16 +390,16 @@ export default function archive() {
             <td className="hidden py-4 align-top sm:table-cell">
               <ul className="translate-y-1">
                 <li className="mb-1 flex items-center">
-                  <a
-                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
-                    href="https://www.vanderbilt.edu/"
+                  <Link
+                    href="https://github.com/amine-tayani/blaazit"
+                    className="inline-flex items-baseline font-medium leading-tight  hover:text-teal-300 text-slate-400 focus-visible:text-teal-300 group/link text-sm"
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="vanderbilt.edu"
+                    aria-label="https://github.com/amine-tayani/blaazit"
                   >
                     <span>
                       <span className="inline-block">
-                        vanderbilt.edu{" "}
+                        git.com/blaazit{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -357,12 +415,11 @@ export default function archive() {
                         </svg>
                       </span>
                     </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </td>
           </tr>
-
           <tr className="border-b border-slate-300/10 last:border-none">
             <td className="py-4 pr-4 align-top text-sm">
               <div className="translate-y-px">2020</div>
@@ -370,17 +427,16 @@ export default function archive() {
             <td className="py-4 pr-4 align-top font-semibold leading-snug text-slate-200">
               <div>
                 <div className="block sm:hidden">
-                  <a
-                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
-                    href="https://19thnews.org/"
+                  <Link
+                    className="inline-flex items-baseline font-medium leading-tight  hover:text-teal-300  focus-visible:text-teal-300 sm:hidden group/link text-base"
+                    href="https://github.com/amine-tayani/Estc-E-learning"
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="The 19th News"
+                    aria-label="Estc"
                   >
                     <span>
-                      The 19th{" "}
                       <span className="inline-block">
-                        News{" "}
+                        Estc-E-learning{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -396,9 +452,9 @@ export default function archive() {
                         </svg>
                       </span>
                     </span>
-                  </a>
+                  </Link>
                 </div>
-                <div className="hidden sm:block">The 19th News</div>
+                <div className="hidden sm:block">Estc-E-learning</div>
               </div>
             </td>
 
@@ -406,22 +462,22 @@ export default function archive() {
               <ul className="flex -translate-y-1.5 flex-wrap">
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    WordPress
+                    HTML/CSS
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Timber
+                    Laravel
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Gutenberg
+                    Javascript
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    PHP
+                    MySQL
                   </div>
                 </li>
                 <li className="my-1 mr-1.5">
@@ -429,31 +485,21 @@ export default function archive() {
                     JavaScript
                   </div>
                 </li>
-                <li className="my-1 mr-1.5">
-                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    Mailchimp
-                  </div>
-                </li>
-                <li className="my-1 mr-1.5">
-                  <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                    AMP
-                  </div>
-                </li>
               </ul>
             </td>
             <td className="hidden py-4 align-top sm:table-cell">
               <ul className="translate-y-1">
                 <li className="mb-1 flex items-center">
-                  <a
-                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 hover:text-slate-200 focus-visible:text-teal-300 group/link text-sm"
-                    href="https://19thnews.org/"
+                  <Link
+                    className="inline-flex items-baseline font-medium leading-tight  hover:text-teal-300  text-slate-400 focus-visible:text-teal-300 group/link text-sm"
+                    href="https://github.com/amine-tayani/Estc-E-learning"
                     target="_blank"
                     rel="noreferrer"
-                    aria-label="19thnews.org"
+                    aria-label="pratt.edu"
                   >
                     <span>
                       <span className="inline-block">
-                        19thnews.org{" "}
+                        Estc.Elearning{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
@@ -469,7 +515,7 @@ export default function archive() {
                         </svg>
                       </span>
                     </span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </td>
