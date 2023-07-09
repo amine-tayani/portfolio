@@ -1,13 +1,12 @@
 "use client";
 
 import * as React from "react";
-import { Tab } from "@headlessui/react";
+import NavigationLinks from "@/components/v2/NavigationLinks";
 import AboutTabPanel from "@/components/v2/AboutTabPanel";
 import ExperienceTabPanel from "@/components/v2/ExperienceTabPanel";
 import ProjectTabPanel from "@/components/v2/ProjectTabPanel";
 import SocialMediaLinks from "@/components/v2/SocialMediaLinks";
 import Footer from "@/components/v2/Footer";
-import Link from "react-anchor-link-smooth-scroll";
 
 const HomePage: React.FC = () => {
   return (
@@ -24,41 +23,7 @@ const HomePage: React.FC = () => {
             My focus is on building engaging and functional experiences for the
             web.
           </p>
-
-          <nav className="nav hidden lg:block" aria-label="In-page jump links">
-            <ul className="my-80 w-max">
-              <li>
-                <Link
-                  className="group flex items-center py-3 active"
-                  href="#about"
-                >
-                  <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                  <span className="nav-text hover:scale-110 text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-                    About
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="group flex items-center py-3"
-                  href="#experience"
-                >
-                  <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"></span>
-                  <span className="nav-text hover:scale-110 text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-                    Experience
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link className="group flex items-center py-3" href="#projects">
-                  <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"></span>
-                  <span className="nav-text hover:scale-110 text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
-                    Projects
-                  </span>
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <NavigationLinks />
         </div>
         <SocialMediaLinks />
       </header>
