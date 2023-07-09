@@ -1,4 +1,4 @@
-# Amine Tayani's Portfolio
+# Amine Tayani's Portfolio v2 at https://portfolio-aminet.vercel.app/v2
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/amine-tayani/portfolio/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/amine-tayani/portfolio)](https://github.com/amine-tayani/portfolio/stargazers)

@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const ExperienceTabPanel: React.FC = () => {
   return (
