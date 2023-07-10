@@ -25,7 +25,7 @@ const ProjectTabPanel: React.FC = () => {
                 <h3>
                   <Link
                     className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                    href="https://portfolio-aminet.vercel.app/"
+                    href="https://amine-tayani.vercel.app/v2"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Portfolio"
