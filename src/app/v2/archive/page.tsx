@@ -5,7 +5,7 @@ export default function Archive() {
     <div className="lg:py-24">
       <Link
         className="group mb-2 inline-flex items-center font-semibold leading-tight text-teal-300"
-        href="/v2"
+        href="https://amine-tayani.vercel.app/v2"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export default function Archive() {
           </tr>
         </thead>
         <tbody>
-        <tr className="border-b border-slate-300/10 last:border-none">
+          <tr className="border-b border-slate-300/10 last:border-none">
             <td className="py-4 pr-4 align-top text-sm">
               <div className="translate-y-px">2022</div>
             </td>
@@ -53,9 +53,7 @@ export default function Archive() {
                 <div className="block sm:hidden">
                   <span>Portfolio : v1</span>
                 </div>
-                <div className="hidden sm:block">
-                  Portfolio : v1
-                </div>
+                <div className="hidden sm:block">Portfolio : v1</div>
               </div>
             </td>
 
@@ -100,7 +98,7 @@ export default function Archive() {
                   >
                     <span>
                       <span className="inline-block">
-                      Portfolio.v1
+                        Portfolio.v1
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"

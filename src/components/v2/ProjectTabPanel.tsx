@@ -516,7 +516,7 @@ const ProjectTabPanel: React.FC = () => {
           <Link
             className="inline-flex items-center  leading-tight text-slate-200 font-semibold group"
             aria-label="View Full Project Archive"
-            href="/v2/archive"
+            href="https://amine-tayani.vercel.app/v2/archive"
           >
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
