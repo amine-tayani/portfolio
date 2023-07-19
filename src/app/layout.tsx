@@ -1,17 +1,15 @@
-import "../../globals.css";
-import { Metadata } from "next";
-import { Inter } from "next/font/google";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Amine Tayani - Portfolio",
-  description: "Amine Tayani's Portfolio",
-  keywords: "Amine Tayani, Portfolio, Web Developer, Software Engineer",
-  authors: [{ name: "Amine Tayani" }],
-  category: "Software Development",
-  creator: "Amine Tayani",
-  publisher: "Amine Tayani",
-  robots: "index, follow",
-};
+import "../../globals.css";
+import { Inter } from "next/font/google";
+import {
+  AnimatePresence,
+  LazyMotion,
+  Transition,
+  domAnimation,
+  m,
+} from "framer-motion";
+import { usePathname } from "next/navigation";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,9 +20,35 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const pathName = usePathname();
+
+  const onTheRight = { x: "100%", opacity: 0 };
+  const inTheCenter = { x: 0, opacity: 1 };
+  const onTheLeft = { x: "-100%", opacity: 0 };
+  const transition: Transition = {
+    duration: 0.5,
+    type: "spring",
+    stiffness: 100,
+    damping: 20,
+  };
+
   return (
     <html>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <LazyMotion features={domAnimation}>
+          <AnimatePresence mode={"wait"}>
+            <m.div
+              key={pathName}
+              initial={onTheRight}
+              animate={inTheCenter}
+              exit={onTheLeft}
+              transition={transition}
+            >
+              {children}
+            </m.div>
+          </AnimatePresence>
+        </LazyMotion>
+      </body>
     </html>
   );
 }

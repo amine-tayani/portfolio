@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function archive() {
+export default function Archive() {
   return (
     <div className="lg:py-24">
       <Link
@@ -130,7 +130,7 @@ export default function archive() {
               <div>
                 <div className="block sm:hidden">
                   <Link
-                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300  focus-visible:text-teal-300 sm:hidden group/link text-base"
                     href="https://github.com/amine-tayani/glasnik_mobile"
                     target="_blank"
                     rel="noreferrer"
@@ -232,7 +232,7 @@ export default function archive() {
               <div>
                 <div className="block sm:hidden">
                   <a
-                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300  focus-visible:text-teal-300 sm:hidden group/link text-base"
                     href="https://github.com/amine-tayani/react-search-auto"
                     target="_blank"
                     rel="noreferrer"
@@ -329,7 +329,7 @@ export default function archive() {
                 <div className="block sm:hidden">
                   <Link
                     href="https://github.com/amine-tayani/blaazit"
-                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 hover:text-slate-200 focus-visible:text-teal-300 sm:hidden group/link text-base"
+                    className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300  focus-visible:text-teal-300 sm:hidden group/link text-base"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Blaazit github repo"
