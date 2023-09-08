@@ -9,8 +9,6 @@ import {usePathname, useSearchParams} from 'next/navigation'
 
 export default function GoogleAnalytics(){
 
-
-
     const pathname = usePathname()
     const searchParams = useSearchParams()
 
