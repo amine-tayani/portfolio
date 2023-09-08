@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <GoogleAnalytics/>
+      <GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_APP_GA_MEASUREMENT_ID}/>
       <body className={inter.className}>{children}</body>
       
     </html>

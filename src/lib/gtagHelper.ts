@@ -1,5 +1,5 @@
-export const pageview = (gtag:string, url : string) => {
-    window.gtag("config", NEXT_PUBLIC_APP_GA_MEASUREMENT_ID, {
+export const pageview = (GA_MEASUREMENT_ID : string, url : string) => {
+    window.gtag("config", GA_MEASUREMENT_ID, {
         page_path: url,
     });
 };
