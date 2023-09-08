@@ -12,9 +12,6 @@ export default function GoogleAnalytics({GA_MEASUREMENT_ID} : {GA_MEASUREMENT_ID
     const pathname = usePathname()
     const searchParams = useSearchParams()
 
-    const pathname = usePathname()
-    const searchParams = useSearchParams()
-
     useEffect(() => {
         const url = pathname + searchParams.toString()
     
