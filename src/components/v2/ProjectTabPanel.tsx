@@ -26,7 +26,7 @@ const ProjectTabPanel: React.FC = () => {
                   <h3>
                     <Link
                       className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                      href="https://amine-tayani.vercel.app/v2"
+                      href="https://amine-tayani.vercel.app/"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="Portfolio"
@@ -508,7 +508,7 @@ const ProjectTabPanel: React.FC = () => {
           <Link
             className="inline-flex items-center  leading-tight text-slate-200 font-semibold group"
             aria-label="View Full Project Archive"
-            href="/v2/archive"
+            href="/archive"
           >
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">

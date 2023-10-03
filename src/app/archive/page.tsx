@@ -5,7 +5,7 @@ export default function Archive() {
     <div className="lg:py-24">
       <Link
         className="group mb-2 inline-flex items-center font-semibold leading-tight text-teal-300"
-        href="/v2"
+        href="/"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -92,9 +92,9 @@ export default function Archive() {
                   <Link
                     className="inline-flex items-baseline font-medium leading-tight text-slate-400 hover:text-teal-300 focus-visible:text-teal-300 group/link text-sm"
                     target="_blank"
-                    href="https://amine-tayani.vercel.app/"
+                    href="https://amine-tayani.vercel.app//"
                     rel="noreferrer"
-                    aria-label="https://amine-tayani.vercel.app/"
+                    aria-label="https://amine-tayani.vercel.app//"
                   >
                     <span>
                       <span className="inline-block">

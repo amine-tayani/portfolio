@@ -1,4 +1,4 @@
-# Amine Tayani's Portfolio [v3](https://amine-tayani.vercel.app/v2)
+# Amine Tayani's Portfolio [v3](https://amine-tayani.vercel.app/)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/amine-tayani/portfolio/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/amine-tayani/portfolio)](https://github.com/amine-tayani/portfolio/stargazers)
@@ -19,4 +19,4 @@ Let's connect! Feel free to reach out to me through the following channels:
 
 - Email: [amine.tayani@gmail.com](mailto:your-email@example.com)
 - LinkedIn: [https://www.linkedin.com/in/aminety](https://www.linkedin.com/in/aminety)
-- Portfolio: [https://amine-tayani.vercel.app/v2](https://amine-tayani.vercel.app/v2)
+- Portfolio: [https://amine-tayani.vercel.app/](https://amine-tayani.vercel.app/)
