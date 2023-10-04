@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+  }
+
+  .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+  }
+
+  .btn {
+    outline: none;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+  }
+
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .ul {
+    padding: 25px;
+    position: absolute;
+    top: 100px;
+    width: 230px;
+    right: 40px;
+  }
+
+  .li {
+    list-style: none;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  html {
+    @apply overflow-x-hidden;
+    font-family: "Inter", sans-serif;
+  }
+  body {
+    background-color: #222233;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  body::-webkit-scrollbar {
+    width: 0.3em;
+  }
+  body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid black;
+  }
+
+  .hover-underline:hover {
+    cursor: pointer;
+  }
+  .hover-underline:hover:after {
+    width: 100%;
+    transition: width 0.4s;
+  }
+  .hover-underline::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #4a69ff;
+    transition: width 0.2s;
+  }
+
+  .container {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    place-content: center;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+  }
+
+  .item {
+    width: 56%;
+    overflow: visible;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+}
