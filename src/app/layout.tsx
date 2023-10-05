@@ -1,8 +1,9 @@
 import { Inter } from "next/font/google";
-import "../../globals.css";
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import MouseTracker from "@/components/v2/AnimatedComponents/MouseTracker";
 import ScrollToTop from "@/components/v2/ScrollToTop";
+import "../../globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -56,6 +57,7 @@ export default function RootLayout({
             <MouseTracker />
             <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
               {children}
+              <Analytics />
               <ScrollToTop />
             </div>
           </div>
