@@ -26,7 +26,7 @@ const ExperienceTabPanel: React.FC = () => {
                   className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
                   aria-label=" Mar - Sep 2021"
                 >
-                  Mar - Sep 2021
+                  Feb 2021 - Jan 2022
                 </header>
                 <div className="z-10 sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
@@ -67,12 +67,10 @@ const ExperienceTabPanel: React.FC = () => {
                     </div>
                   </h3>
                   <p className="mt-2 text-sm leading-normal">
-                    During my time as a freelancer on Fiverr, I successfully
-                    developed over three full-stack web applications catering to
-                    diverse domains, such as Cryptocurrency and Fitness. I
-                    actively engaged with various professionals, including Web
-                    Developers and UI designers, as part of the app development
-                    team.
+                    Developed interactive websites for clients using Next.js and React. catering to
+                    diverse domains, such as Cryptocurrency and Fitness. Collaborate with clients, Advocate developers,
+                    UI / UX Designers to transform creative concepts into production realities.
+
                   </p>
                   <ul
                     className="mt-2 flex flex-wrap"
