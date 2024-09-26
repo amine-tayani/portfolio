@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import Link from "next/link";
 import NavigationLinks from "@/components/v2/NavigationLinks";
 import AboutTabPanel from "@/components/v2/AboutTabPanel";
 import ExperienceTabPanel from "@/components/v2/ExperienceTabPanel";
