@@ -11,7 +11,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: "https://amine-tayani.vercel.app/assets/Amine_CV_dernier.pdf",
+      url: "https://amine-tayani.vercel.app/assets/resume/Amine_CV_dernier.pdf",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://amine-tayani.vercel.app/assets/resume/RESUME_DEV_LTS.pdf",
       lastModified: new Date(),
     },
   ];
